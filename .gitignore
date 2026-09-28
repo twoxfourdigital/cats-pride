@@ -1,0 +1,61 @@
+# ------------------------------------------------------------
+# Environment / server-specific config (never commit)
+# ------------------------------------------------------------
+wp-config.php
+.htaccess
+.user.ini
+php.ini
+.env
+.env.*
+
+# ------------------------------------------------------------
+# Media & user-generated content (sync via migration, not git)
+# ------------------------------------------------------------
+wp-content/uploads/
+
+# ------------------------------------------------------------
+# Caches, backups, runtime files
+# ------------------------------------------------------------
+wp-content/cache/
+wp-content/advanced-cache.php
+wp-content/object-cache.php
+wp-content/wp-rocket-config/
+wp-content/ai1wm-backups/
+wp-content/backup*/
+wp-content/upgrade/
+wp-content/upgrade-temp-backup/
+wp-content/maintenance/
+wp-content/maintenance.php
+wp-content/wflogs/
+wp-content/plugins/all-in-one-wp-migration/storage/
+
+# ------------------------------------------------------------
+# Logs, dumps, archives
+# ------------------------------------------------------------
+*.log
+*.sql
+*.sql.gz
+*.zip
+*.tar
+*.tar.gz
+*.wpress
+
+# ------------------------------------------------------------
+# Dependencies & build output (if the theme gets a build step)
+# ------------------------------------------------------------
+node_modules/
+.sass-cache/
+
+# ------------------------------------------------------------
+# OS / editor junk
+# ------------------------------------------------------------
+.DS_Store
+Thumbs.db
+desktop.ini
+*~
+*.swp
+*.bak
+*.orig
+.idea/
+.vscode/
+.claude/
