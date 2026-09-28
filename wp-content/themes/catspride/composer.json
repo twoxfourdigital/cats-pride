@@ -1,0 +1,14 @@
+{
+  "name": "app/cats-pride",
+  "autoload": {
+    "psr-4": {
+      "App\\": "app/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Librafire"
+    }
+  ],
+  "require": {}
+}

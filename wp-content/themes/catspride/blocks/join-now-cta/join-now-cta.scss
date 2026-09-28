@@ -1,0 +1,38 @@
+@import '../../assets/scss/global/variables';
+@import '../../assets/scss/global/mixins';
+
+.join-now-cta-wrapper {
+    background-color: $purple;
+    padding: 30px 0;
+    .join-now-cta_row {
+        color: #FFF;
+        h2 {
+            color: #FFF;
+            font-family: $primary-font;
+            font-size: 22px;
+            
+        }
+        p {
+            margin: 5px 0;
+            font-family: $tertiary-font;
+            font-size: 20px;
+            font-weight: 100;
+        }
+        
+        
+    }
+    .cta-button-wrapper {
+        align-items: center;
+        text-align: center;
+        .cta-desc {
+            p {
+                font-size: 14px;
+                text-align: center;
+            }
+            a {
+                text-decoration: underline;
+            }
+        }
+    }
+    
+}

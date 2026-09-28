@@ -1,0 +1,54 @@
+// Container widths
+$container-width: 1170px;
+
+// Colors
+$primary-color:		#009fd4;
+$secondary-color:	#007eb8;
+$tertiary-color:	#1460aa;
+$blue:              #0a3055;
+$black:				#152f52;
+$purple:            #651876;
+$green:             #6abf4b;
+$white:				#ffffff;
+$dark:              #222222;
+
+
+// Fonts
+$primary-font:   'Montserrat-Regular';
+$secondary-font: 'Montserrat-Bold';
+$tertiary-font: 'Montserrat-Light';
+
+// Font Sizes
+$font-size-xsmall:	12px;
+$font-size-small:	14px;
+$font-size-base:	16px;
+$font-size-large:	18px;
+$font-size-xlarge:	20px;
+
+// Heading sizes
+$font-size-h1: 45px;
+$font-size-h2: 36px;
+$font-size-h3: 24px;
+$font-size-h4: 20px;
+$font-size-h5: 18px;
+$font-size-h6: 15px;
+
+// Breakpoints
+$mac: 1440px;
+$lt: 1366px;
+$ls: 1280px;
+$lg: 1199px;
+$md: 991px;
+$sm: 767px;
+$smb: 575px;
+$mb: 480px;
+$ip: 420px;
+$xs: 350px;
+
+// Navigation config
+$responsive-toggle-breakpoint: $lg;
+$toggle-menu-height: 20px;
+$toggle-menu-width: 25px;
+$toggle-menu-bar-height: 3px;
+$toggle-menu-bar-color: $primary-color;
+$toggle-menu-bar-active-color: transparent;

@@ -1,0 +1,134 @@
+@import '../../assets/scss/global/variables';
+@import '../../assets/scss/global/mixins';
+
+.store-locator-hero {
+    color: $white;
+    padding: 60px 0;
+
+    .store-locator-hero__items {
+        margin-top: 50px;
+
+        &.store-locator-hero__items-with-text {
+
+            .store-locator-hero__left-text-wrapper {
+                height: auto;
+                position: relative;
+
+                .fa-quote-left {
+                    top: -25px;
+                }
+
+                .fa-quote-right {
+                    bottom: -25px;
+                }
+            }
+
+            .store-locator-hero__left-following-text {
+                text-align: center;
+                padding: 30px 0;
+                width: 70%;
+                margin-left: auto;
+
+                h2 {
+                    margin-bottom: 10px;
+
+                    span {
+                        font-family: $tertiary-font;
+                        font-weight: 300;
+                    }
+                }
+
+                h4 {
+                    position: relative;
+                    padding-bottom: 15px;
+                    font-family: $tertiary-font;
+                    font-weight: 300;
+
+                    &:after {
+                        content: "";
+                        border-bottom: 4px solid $white;
+                        left: 50%;
+                        transform: translateX(-50%);
+                        bottom: 0;
+                        position: absolute;
+                        width: 40px;
+                    }
+                }
+
+                p {
+                    margin-top: 15px;
+                }
+            }
+        }
+    }
+
+    .store-locator-hero__left-text-wrapper {
+        width: 70%;
+        border: 5px solid $white;
+        border-radius: 30px;
+        padding: 50px 10px;
+        text-align: center;
+        height: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        margin-left: auto;
+
+        @include max-mq ($md) {
+            width: 40%;
+            margin-right: auto;
+            margin-left: 0;
+        }
+
+        @include max-mq ($sm) {
+            width: 100%;
+        }
+
+        h1 {
+            margin-bottom: 25px;
+        }
+
+        .fa-quote-left {
+            position: absolute;
+            top: -15px;
+            background: $green;
+            width: 65px;
+            height: 45px;
+        }
+
+        .fa-quote-right {
+            position: absolute;
+            bottom: -15px;
+            background: $green;
+            width: 65px;
+            height: 45px;
+        }
+
+    }
+
+    .store-locator-hero__image {
+        text-align: center;
+
+        img {
+            height: 340px;
+            position: absolute;
+            width: auto;
+            bottom: -60px;
+            left: 50%;
+            transform: translateX(-50%);
+
+            @include max-mq ($md) {
+                transform: none;
+                right: 0;
+            }
+
+            @include max-mq ($sm) {
+                position: relative;
+                left: 0;
+            }
+
+        }
+
+    }
+}

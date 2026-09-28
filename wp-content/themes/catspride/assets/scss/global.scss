@@ -1,0 +1,307 @@
+/* Uncomment for Slick Slider */
+
+// @import "../../node_modules/slick-carousel/slick/slick";
+
+/* critical:start */
+
+@import 'global/variables';
+@import 'global/index';
+@import 'global/loader';
+
+
+.primary-button {
+    font-size: $font-size-small;
+    color: $tertiary-color;
+    border: 2px solid $tertiary-color;
+    padding: 6px 20px;
+    border-radius: 30px;
+    text-transform: uppercase;
+    font-weight: 700;
+    transition: 0.2s;
+    cursor: pointer;
+    background-color: $white;
+    font-family: $secondary-font;
+
+    &:hover {
+        background-color: $blue;
+        color: $white;
+        border-color: $blue;
+    }
+
+    &--light-blue {
+        color: $white;
+        border: 2px solid $primary-color;
+        background-color: $primary-color;
+        font-size: $font-size-large;
+        padding: 15px 25px;
+        border-radius: 50px;
+        text-transform: uppercase;
+        font-family: $secondary-font;
+        transition: 0.2s;
+        cursor: pointer;
+        display: inline-block;
+
+        &:hover {
+            background-color: $white;
+            color: $primary-color;
+        }
+
+        @include max-mq ($md) {
+            font-size: 14px;
+            padding: 12px 20px;
+        }
+    }
+
+    &--white {
+        color: $blue;
+        border: 2px solid $blue;
+        background-color: $white;
+        font-size: $font-size-large;
+        padding: 15px 25px;
+        border-radius: 50px;
+        text-transform: uppercase;
+        font-family: $secondary-font;
+        transition: 0.2s;
+        cursor: pointer;
+        display: inline-block;
+
+        &:hover {
+            background-color: $blue;
+            color: $white;
+        }
+
+        @include max-mq ($md) {
+            font-size: 14px;
+            padding: 12px 20px;
+        }
+    }
+
+    &--green {
+        color: $white;
+        border: 2px solid $green;
+        background-color: $green;
+        font-size: $font-size-large;
+        padding: 15px 25px;
+        border-radius: 50px;
+        text-transform: uppercase;
+        font-family: $secondary-font;
+        transition: 0.2s;
+        cursor: pointer;
+        display: inline-block;
+
+        &:hover {
+            background-color: $white;
+            color: $green;
+        }
+
+        @include max-mq ($md) {
+            font-size: 14px;
+            padding: 12px 20px;
+        }
+    }
+
+    &--purple {
+        color: $white;
+        border: 2px solid $purple;
+        background-color: $purple;
+        font-size: $font-size-large;
+        padding: 15px 25px;
+        border-radius: 50px;
+        text-transform: uppercase;
+        font-family: $secondary-font;
+        transition: 0.2s;
+        cursor: pointer;
+        display: inline-block;
+
+        &:hover {
+            background-color: $white;
+            color: $purple;
+        }
+
+        @include max-mq ($md) {
+            font-size: 14px;
+            padding: 12px 20px;
+        }
+    }
+
+    &--white-blue {
+        color: $primary-color;
+        border: 2px solid $primary-color;
+        background-color: $white;
+        font-size: $font-size-large;
+        padding: 15px 25px;
+        border-radius: 50px;
+        text-transform: uppercase;
+        font-family: $secondary-font;
+        transition: 0.2s;
+        cursor: pointer;
+        display: inline-block;
+
+        &:hover {
+            background-color: $primary-color;
+            color: $white;
+        }
+
+        @include max-mq ($md) {
+            font-size: 14px;
+            padding: 12px 20px;
+        }
+    }
+
+    &--blue {
+        color: $white;
+        border: 2px solid $blue;
+        background-color: $blue;
+        font-size: $font-size-large;
+        padding: 15px 25px;
+        border-radius: 50px;
+        text-transform: uppercase;
+        font-family: $secondary-font;
+        transition: 0.2s;
+        cursor: pointer;
+        display: inline-block;
+
+        &:hover {
+            background-color: $white;
+            color: $blue;
+        }
+
+        @include max-mq ($md) {
+            font-size: 14px;
+            padding: 12px 20px;
+        }
+    }
+
+    &--white-green {
+        color: $green;
+        border: 2px solid $green;
+        background-color: $white;
+        font-size: $font-size-large;
+        padding: 15px 25px;
+        border-radius: 50px;
+        text-transform: uppercase;
+        font-family: $secondary-font;
+        transition: 0.2s;
+        cursor: pointer;
+        display: inline-block;
+
+        &:hover {
+            background-color: $green;
+            color: $white;
+        }
+
+        @include max-mq ($md) {
+            font-size: 14px;
+            padding: 12px 20px;
+        }
+    }
+}
+
+.title-secondary {
+    color: $black;
+    font-family: $tertiary-font;
+    font-weight: 300;
+    margin: 0 auto;
+    margin-bottom: 10px;
+
+    @include max-mq ($md) {
+        font-size: 28px;
+    }
+}
+
+.overflowHidden {
+    overflow: hidden;
+}
+
+.zip-code-search__form {
+    .store-zip-text {
+        padding: 13px 15px 12px 25px;
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 20px;
+        border: 1px solid $tertiary-color;
+        max-width: 180px;
+        width: 100%;
+
+        &::placeholder {
+            font-family: $primary-font;
+            font-size: $font-size-small;
+        }
+
+        &:focus-visible {
+            outline: none;
+        }
+    }
+
+    .store-zip-button {
+        padding: 12px 15px;
+        margin-left: -5px;
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+        font-size: 16px;
+        color: $white;
+        background-color: $tertiary-color;
+        border: none;
+        text-transform: uppercase;
+        font-family: $secondary-font;
+        cursor: pointer;
+    }
+}
+
+.banners {
+    background-color: #f6f5f6;
+    padding: 50px 0;
+
+    .banner {
+        color: $white;
+        font-family: $tertiary-font;
+        font-weight: 300;
+
+        &.blue {
+            background-color: #143052;
+
+            .banner__button-wrapper {
+                display: inline-block;
+                position: relative;
+            }
+        }
+
+        &.green {
+            background: radial-gradient(circle, #86c269 0%, #5e874a 100%);
+
+            .banner__button-wrapper {
+                position: absolute;
+                bottom: 20px;
+            }
+        }
+
+
+        .banner__inner {
+            padding: 20px 30px;
+            height: 100%;
+
+            @include max-mq ($sm) {
+                min-height: 210px;
+            }
+
+            .title-third {
+                margin-bottom: 10px;
+
+                span {
+                    font-family: $secondary-font;
+                }
+            }
+
+            .banner__description {
+                margin-bottom: 10px;
+            }
+
+            .banner__button-wrapper {
+                img {
+                    margin-left: -29px
+                }
+            }
+        }
+    }
+}
+
+/* critical:end */

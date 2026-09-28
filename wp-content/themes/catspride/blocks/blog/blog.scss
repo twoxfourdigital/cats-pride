@@ -1,0 +1,54 @@
+@import '../../assets/scss/global/variables';
+@import '../../assets/scss/global/mixins';
+
+.blog {
+    padding: 50px 0;
+
+    .blog__description {
+        color: $black;
+
+        a {
+            color: $purple;
+        }
+    }
+
+    .blog__items {
+        margin-top: 10px;
+        margin-bottom: 30px;
+
+        img {
+            height: 250px;
+            margin-bottom: 10px;
+            object-fit: cover;
+        }
+
+        .title-third {
+            color: $purple;
+            font-size: $font-size-large;
+            margin-bottom: 5px;
+        }
+
+        .blog__item {
+            @include max-mq ($lg) {
+                margin-bottom: 15px;
+            }
+
+            @include max-mq ($smb) {
+                text-align: center;
+            }
+        }
+
+        .blog__item-date, .blog__item-cats {
+            color: $black;
+            font-size: $font-size-xsmall;
+        }
+
+        .blog__item_excerpt {
+            display: none;
+        }
+    }
+
+    .blog-button {
+        text-align: center;
+    }
+}

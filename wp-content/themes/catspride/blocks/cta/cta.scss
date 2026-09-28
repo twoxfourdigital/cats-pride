@@ -1,0 +1,19 @@
+@import '../../assets/scss/global/variables';
+@import '../../assets/scss/global/mixins';
+
+.cta-wrapper {
+    margin: 40px auto 0px;
+    .cta_row {
+        align-items: center;
+        background-color: #f0f0f0;
+        padding: 25px 15px;
+        text-align: center;
+        h3 {
+            font-family: $secondary-font;
+            font-style: normal;
+            font-weight: 300;
+            font-size: 1.571em;
+            color: #0a3055;
+        }
+    }
+}

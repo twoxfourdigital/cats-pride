@@ -1,0 +1,175 @@
+@import "global/variables";
+@import "global/mixins";
+
+/* critical:start */
+.section-search-hero {
+    padding-top: 30px;
+    background-image: url('../assets/images/bluebackground.jpg');
+    background-image: var(--bg-url);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    color: $white;
+    img {
+        max-width: 375px;
+    }
+    .row {
+        justify-content: end;
+        align-items: center;
+
+        h2 {
+            span {
+                text-transform: uppercase;
+            }
+        }
+
+    }
+}
+
+.nav-links {
+    text-align: center;
+    color: $dark;
+    margin-top: 20px;
+
+    span,
+    a {
+        padding: 5px 12px;
+    }
+
+    .current {
+        color: $white;
+        background-color: $green;
+    }
+
+    .page-numbers {
+        transition: 0.2s;
+        border-radius: 50%;
+
+
+        &:hover {
+            background-color: #f0f0f0;
+        }
+
+        &.current {
+            &:hover {
+                background-color: $green;
+            }
+        }
+
+        &.next {
+            &:hover {
+                background-color: transparent;
+            }
+        }
+
+        &.previous {
+            &:hover {
+                background-color: transparent;
+            }
+        }
+
+        &.dots {
+            &:hover {
+                background-color: transparent;
+            }
+        }
+    }
+}
+
+.search__items {
+    padding-top: 30px;
+
+    .search__item {
+        margin-bottom: 25px;
+
+        @include max-mq ($smb) {
+            margin-bottom: 40px;
+
+            &:last-child {
+                margin-bottom: 25px;
+            }
+        }
+
+        .search__item-image {
+            margin-bottom: 10px;
+
+            img {
+                height: 150px;
+                object-fit: cover;
+                width: 100%;
+
+                @include max-mq ($smb) {
+                    height: 250px;
+                }
+            }
+        }
+
+        .title-third {
+            color: $purple;
+            font-size: $font-size-base;
+            margin-bottom: 10px;
+        }
+
+        .search__item-date,
+        .search__item-cats,
+        .search__item_excerpt {
+            color: $black;
+            font-size: $font-size-xsmall;
+        }
+
+        .search__item_excerpt {
+            margin-top: 10px;
+        }
+
+    }
+}
+
+.no-results {
+    padding: 60px 0;
+    text-align: center;
+
+    .page-title {
+        margin-bottom: 30px;
+    }
+
+    p {
+        margin-bottom: 20px;
+    }
+
+    .search-form {
+        .search-field {
+            width: 100%;
+            max-width: 400px;
+            padding: 10px 3px;
+            background-color: transparent;
+            border: none;
+            border-bottom: 1px solid $primary-color;
+            height: 45px;
+
+            &:focus-visible {
+                border-bottom: 2px solid $primary-color;
+                outline: none;
+                border-top: none;
+                border-right: none;
+                border-left: none;
+            }
+
+            &::placeholder {
+                font-size: $font-size-large;
+            }
+        }
+
+        .submit-button-search {
+            background-color: transparent;
+            height: 45px;
+            width: 45px;
+            border: none;
+
+            img {
+                width: 18px;
+            }
+        }
+    }
+}
+
+/* critical:end */

@@ -1,0 +1,5 @@
+# Env Config
+.htaccess
+wp-config.php
+/node_modules
+/dist

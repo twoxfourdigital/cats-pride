@@ -1,0 +1,68 @@
+@import '../../assets/scss/global/variables';
+@import '../../assets/scss/global/mixins';
+
+
+.page-template-landingpagetemplate{
+    .column-block-wrapper {
+        h1,h2,h3,h4,h5,h6 {
+            color: $purple;
+        }
+
+        .column-wrapper h2 {
+            color: $purple;
+            span{
+                color: $purple;
+            }
+        }
+    }
+}
+
+.column-block-wrapper {
+   
+    margin: 45px 0;
+    .column-main-content {
+        margin: 50px 0;
+    }
+    
+    .column-block_row{
+        
+
+        .column-wrapper {
+            margin-bottom: 30px;
+            .column-icon {
+                text-align: center;
+                margin: 20px 0;
+            }
+            h2 {
+                color: #0a3055;
+                font-family: Montserrat-Regular;
+                font-size: 1.571em;
+                font-style: normal;
+                font-weight: 300;
+                margin-bottom: 12px;
+                padding-bottom: 4px;
+                span {
+                    font-family: Montserrat-Bold;
+                }
+            }
+
+            .column-content{
+                p {
+                    color: #282828;
+                    font-family: Montserrat-Regular;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 1.5em;
+
+                    a{
+                        text-decoration: underline;
+                        color: $purple;
+                        font-weight: bold;
+                    }
+                }
+            }
+        }
+    }
+
+}

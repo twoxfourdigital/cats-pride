@@ -1,0 +1,19 @@
+body {
+    color: $primary-color;
+    font-family: $primary-font;
+    font-size: $font-size-base;
+    margin: 0;
+}
+
+.clear-fix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.shelter-page-not-available {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding-top: 150px;
+}

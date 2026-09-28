@@ -1,0 +1,19 @@
+@import '../../assets/scss/global/variables';
+@import '../../assets/scss/global/mixins';
+
+
+.image-hero {
+    position: relative;
+
+    .image-hero__inner {
+        display: block;
+        width: 100%;
+    }
+
+    picture,
+    .image-hero__image {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+}

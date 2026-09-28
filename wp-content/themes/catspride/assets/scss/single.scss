@@ -1,0 +1,134 @@
+@import "global/variables";
+@import "global/mixins";
+
+/* critical:start */
+.single-blog-page {
+    margin-bottom: 40px;
+
+    .main-blog-thumbnail {
+        position: relative;
+        z-index: -1;
+        margin-bottom: 20px;
+    }
+
+    .entry-header {
+        .entry-title {
+            color: $dark;
+            font-family: $secondary-font;
+            margin-bottom: 5px;
+
+            @include max-mq ($smb) {
+                font-size: $font-size-h2;
+            }
+        }
+    }
+
+    .single-blog-cats,
+    .single-blog-date,
+    .entry-content {
+        color: #282828;
+    }
+
+    .entry-content {
+        margin-top: 20px;
+
+        p {
+            margin-bottom: 20px;
+            display: inline-block;
+        }
+
+        a {
+
+            @include max-mq ($smb) {
+                display: block;
+                width: 100%;
+            }
+
+            img {
+                float: left;
+                margin-right: 30px;
+
+                @include max-mq ($smb) {
+                    float: none;
+                    margin-right: 0;
+                    margin-bottom: 5px;
+
+                }
+            }
+        }
+
+        h6 {
+            text-transform: uppercase;
+        }
+
+    }
+
+    .right-sidebar {
+
+        .banners {
+            background-color: transparent;
+            padding-top: 0;
+
+            .row {
+                flex-direction: column-reverse;
+            }
+
+            .banner {
+                width: 100%;
+
+                .banner__inner {
+                    @include max-mq ($md) {
+                        padding: 20px 10px;
+                    }
+
+                }
+
+                &.green {
+                    .banner__button-wrapper {
+                        position: relative;
+                        bottom: 0;
+
+                        @include max-mq ($sm) {
+                            position: absolute;
+                            bottom: 20px;
+                        }
+                    }
+                }
+            }
+        }
+
+        .recomended-product-wrapper {
+
+            a {
+                display: block;
+                text-align: center;
+
+                img {
+                    margin-bottom: 10px;
+
+                    @include max-mq ($sm) {
+                        max-width: 30%;
+                    }
+                }
+
+                .single-product-content {
+                    color: $dark;
+                    text-align: center;
+
+                    h4 {
+                        margin-bottom: 5px;
+                    }
+                }
+            }
+
+            .title-third {
+                color: $dark;
+                padding-bottom: 10px;
+                margin-bottom: 20px;
+                border-bottom: solid 3px #eaebee;
+            }
+        }
+    }
+}
+
+/* critical:end */

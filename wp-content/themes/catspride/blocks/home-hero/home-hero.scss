@@ -1,0 +1,51 @@
+@import '../../assets/scss/global/variables';
+@import '../../assets/scss/global/mixins';
+
+.home-hero {
+    padding: 50px 0;
+    background-color: #255387;
+    .home-hero__items {
+        align-items: center;
+    }
+    .home-hero__left {
+        .home-hero__image {
+            filter: drop-shadow(0px 0px 90px rgba(107, 176, 233, 1));
+            text-align: center;
+
+            img {
+                width: 100%;
+                margin-bottom: -80px;
+
+                @include max-mq ($md) {
+                    margin-bottom: 0;
+                }
+            }
+        }
+    }
+
+    .home-hero__right {
+        text-align: center;
+
+        .title-third {
+            color: $green;
+            text-transform: uppercase;
+
+            @include max-mq ($md) {
+                font-size: $font-size-h6;
+            }
+        }
+
+        .title-primary {
+            color: $white;
+            max-width: 90%;
+            margin: 0 auto;
+            margin-top: 10px;
+            margin-bottom: 30px;
+
+            @include max-mq ($md) {
+                font-size: $font-size-h2;
+            }
+
+        }
+    }
+}

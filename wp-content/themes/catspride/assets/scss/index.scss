@@ -1,0 +1,242 @@
+@import "global/variables";
+@import "global/mixins";
+
+/* critical:start */
+
+.page-hero {
+    background-position: 50%;
+    background-size: contain;
+    padding: 60px 0;
+    background-repeat: no-repeat;
+    background-color: #504589;
+    min-height: 400px;
+    position: relative;
+    z-index: -1;
+
+    @include max-mq ($mac) {
+        background-size: cover;
+    }
+
+    .page-hero__box {
+        position: absolute;
+        left: 0;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 30%;
+        float: right;
+
+        @include max-mq ($mac) {
+            width: 40%;
+        }
+
+        @include max-mq ($lg) {
+            top: 100%;
+            transform: translateY(-100%);
+            width: 50%;
+        }
+
+        @include max-mq ($sm) {
+            width: 80%;
+        }
+
+        .page-hero__description {
+            width: 70%;
+            font-size: $font-size-h1;
+            font-family: $secondary-font;
+            text-align: right;
+            float: right;
+            padding: 20px 40px 20px 0;
+
+            @include max-mq ($lg) {
+                float: none;
+                margin: 0 auto;
+            }
+
+            @include max-mq ($sm) {
+                font-size: $font-size-h2;
+                width: 100%;
+                text-align: center;
+                float: none;
+                padding: 20px;
+
+            }
+
+            @include max-mq ($smb) {
+                font-size: $font-size-h3;
+            }
+        }
+    }
+}
+
+.blog {
+    .blog__inner {
+        padding: 60px 0;
+
+        .post-filters__terms {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+
+            .post-filters__term {
+                background-color: #efefef;
+                padding: 8px 15px;
+                border-radius: 50px;
+                margin-top: 10px;
+                margin-right: 5px;
+                display: flex;
+                flex-direction: row-reverse;
+                align-items: center;
+                cursor: pointer;
+
+                input {
+                    display: none;
+                }
+
+                label {
+                    display: inline-block;
+                    font-size: 12px;
+                    letter-spacing: 2px;
+                    text-transform: uppercase;
+                    color: #00000059;
+                    cursor: pointer;
+
+                }
+
+                &.filter-active {
+                    label {
+                        display: inline-block;
+                        font-size: 12px;
+                        letter-spacing: 2px;
+                        text-transform: uppercase;
+                        color: $dark;
+                        margin-right: 5px;
+                    }
+
+                    input {
+                        display: block;
+                        -webkit-appearance: none;
+                        -moz-appearance: none;
+                        appearance: none;
+                        font-size: $font-size-base;
+                        background-color: $white;
+                        border-radius: 50%;
+                        position: relative;
+                        cursor: pointer;
+                        width: 20px;
+                        height: 20px;
+
+
+                        &::after {
+                            content: "x";
+                            position: absolute;
+                            left: 50%;
+                            top: 50%;
+                            transform: translate(-50%, -50%);
+                        }
+                    }
+                }
+            }
+        }
+
+        .blog__items {
+            padding-top: 30px;
+
+            .blog__item {
+                margin-bottom: 25px;
+
+                @include max-mq ($smb) {
+                    margin-bottom: 40px;
+
+                    &:last-child {
+                        margin-bottom: 25px;
+                    }
+                }
+
+                .blog__item-image {
+                    margin-bottom: 10px;
+
+                    img {
+                        height: 150px;
+                        object-fit: cover;
+                        width: 100%;
+
+                        @include max-mq ($smb) {
+                            height: 250px;
+                        }
+                    }
+                }
+
+                .title-third {
+                    color: $purple;
+                    font-size: $font-size-base;
+                    margin-bottom: 10px;
+                }
+
+                .blog__item-date,
+                .blog__item-cats,
+                .blog__item_excerpt {
+                    color: $black;
+                    font-size: $font-size-xsmall;
+                }
+
+                .blog__item_excerpt {
+                    margin-top: 10px;
+                }
+
+            }
+        }
+
+        .nav-links {
+            text-align: center;
+            color: $dark;
+            margin-top: 20px;
+
+            span,
+            a {
+                padding: 5px 12px;
+            }
+
+            .current {
+                color: $white;
+                background-color: $green;
+            }
+
+            .page-numbers {
+                transition: 0.2s;
+                border-radius: 50%;
+
+
+                &:hover {
+                    background-color: #f0f0f0;
+                }
+
+                &.current {
+                    &:hover {
+                        background-color: $green;
+                    }
+                }
+
+                &.next {
+                    &:hover {
+                        background-color: transparent;
+                    }
+                }
+
+                &.previous {
+                    &:hover {
+                        background-color: transparent;
+                    }
+                }
+
+                &.dots {
+                    &:hover {
+                        background-color: transparent;
+                    }
+                }
+            }
+        }
+    }
+}
+
+/* critical:end */

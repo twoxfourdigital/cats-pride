@@ -1,0 +1,72 @@
+@import '../../assets/scss/global/variables';
+@import '../../assets/scss/global/mixins';
+
+
+.page-hero {
+    background-position: 50%;
+    background-size: cover;
+    padding: 60px 0;
+    background-repeat: no-repeat;
+   
+    min-height: 400px;
+    position: relative;
+    z-index: -1;
+
+    @include max-mq ($mac) {
+        background-size: cover;
+    }
+
+    .page-hero__box {
+        position: absolute;
+        left: 0;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 30%;
+        float: right;
+
+        @include max-mq ($mac) {
+            width: 40%;
+        }
+
+        @include max-mq ($lg) {
+            top: 100%;
+            transform: translateY(-100%);
+            width: 50%;
+        }
+
+        @include max-mq ($sm) {
+            width: 80%;
+        }
+
+        .page-hero__description {
+            width: 70%;
+            font-size: $font-size-h1;
+            font-family: $secondary-font;
+            text-align: right;
+            float: right;
+            padding: 20px 40px 20px 0;
+            span {
+                font-size: 24px;
+                display: block;
+                text-align: center;
+            }
+            @include max-mq ($lg) {
+                float: none;
+                margin: 0 auto;
+            }
+
+            @include max-mq ($sm) {
+                font-size: $font-size-h2;
+                width: 100%;
+                text-align: center;
+                float: none;
+                padding: 20px;
+
+            }
+
+            @include max-mq ($smb) {
+                font-size: $font-size-h3;
+            }
+        }
+    }
+}

@@ -1,0 +1,35 @@
+@import '../../assets/scss/global/variables';
+@import '../../assets/scss/global/mixins';
+@import "@fancyapps/ui/dist/fancybox/fancybox.css";
+
+.video-section {
+    padding: 50px 0;
+
+
+    .video-section__items {
+        justify-content: center;
+    }
+
+    .video-section__left {
+
+        @include max-mq($md) {
+            text-align: center;
+        }
+
+        .title-secondary {
+            margin-bottom: 30px;
+
+
+        }
+    }
+
+    .video-section__right {
+        @include max-mq($md) {
+            margin-top: 30px;
+        }
+
+        img {
+            width: 100%;
+        }
+    }
+}

@@ -1,0 +1,215 @@
+@import '../../assets/scss/global/variables';
+@import '../../assets/scss/global/mixins';
+
+.store-locator {
+    padding: 60px 0;
+
+    .store-locator__inner {
+        .store-locator-description {
+            max-width: 50%;
+            width: 100%;
+            color: $dark;
+            margin: 0 auto 50px;
+            text-align: center;
+
+            @include max-mq ($md) {
+                max-width: 100%;
+            }
+        }
+
+        .x-container {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            width: 100%;
+
+            @include max-mq ($md) {
+                display: block;
+            }
+
+            .x-1-2 {
+                width: 48%;
+            }
+
+            .x-column.last,
+            .x-column:last-of-type {
+                margin-right: 0;
+            }
+
+            .x-1-4 {
+                width: 22%;
+            }
+
+            .x-column {
+                position: relative;
+                z-index: 1;
+                float: left;
+                margin-right: 4%;
+
+                @include max-mq ($md) {
+                    width: 100%;
+                    float: none;
+                    margin-left: 0;
+                    margin-right: 0;
+                    margin-top: 15px;
+                    margin-bottom: 15px;
+                    text-align: center;
+
+                    &:last-child {
+                        margin-bottom: 0;
+
+                    }
+
+                    &:first-child {
+                        margin-top: 0;
+
+                    }
+                }
+            }
+
+
+        }
+
+        select,
+        input {
+            border: 1px solid rgba(0, 0, 0, .1);
+            padding: 0 23px;
+            font-size: $font-size-base;
+            line-height: normal;
+            color: #555;
+            background-color: #fff;
+            height: 42px;
+
+            @include max-mq ($md) {
+                max-width: 500px;
+                width: 50%;
+            }
+
+            @include max-mq ($sm) {
+                width: 70%;
+            }
+
+            @include max-mq ($smb) {
+                width: 100%;
+            }
+        }
+
+        input {
+            height: 37px;
+
+            @include max-mq ($md) {
+                margin-left: 0 !important;
+            }
+        }
+
+        .catspride-Button {
+            color: $white;
+            border: 2px solid $tertiary-color;
+            background-color: $tertiary-color;
+            font-size: $font-size-large;
+            padding: 15px 25px;
+            border-radius: 50px;
+            text-transform: uppercase;
+            font-family: $secondary-font;
+            transition: 0.2s;
+            cursor: pointer;
+            display: inline-block;
+            height: auto;
+            float: right;
+
+            &:hover {
+                background-color: $white;
+                color: $tertiary-color;
+            }
+
+            @include max-mq ($md) {
+                float: none;
+                width: 150px;
+            }
+        }
+
+        hr {
+            margin: 30px 0;
+            height: 0;
+            border: 0;
+            border-top: 1px solid rgba(0, 0, 0, .1);
+        }
+
+        .catspride-StoreLocatorForm {
+            .results-store-text {
+                margin: 30px 0;
+                color: $black;
+
+                @include max-mq ($sm) {
+                    text-align: center;
+                }
+            }
+
+            .x-container {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-between;
+
+                @include max-mq ($sm) {
+                    justify-content: center;
+                }
+
+                &.width {
+                    display: block;
+                }
+            }
+
+            .x-column.x-1-3 {
+                width: 30.66666%;
+                background-color: $tertiary-color;
+                color: $white;
+                text-align: center;
+                padding: 20px 30px;
+                border-bottom: 15px solid #272e63;
+                min-height: 295px;
+                margin-bottom: 40px;
+
+                @include max-mq ($sm) {
+                    width: 60%;
+                }
+
+                @include max-mq ($smb) {
+                    width: 90%;
+                }
+
+                .h-custom-headline {
+                    text-transform: uppercase;
+                    font-family: $tertiary-font;
+                    font-weight: 200;
+                    font-size: $font-size-xlarge;
+                    margin-bottom: 16px;
+                }
+
+                .subtext {
+                    font-size: $font-size-large;
+                    margin-bottom: 5px;
+
+                    p {
+                        margin-bottom: 10px;
+                    }
+                }
+
+                .primary-button--white-blue {
+                    margin-top: 15px;
+                }
+            }
+        }
+    }
+}
+
+.woocommerce-error {
+    border: 2px solid #eb5439;
+    color: #eb5439;
+    margin: 35px 0;
+    padding: 12px 18px 16px;
+    text-align: center;
+
+    &::before {
+        display: none;
+    }
+}

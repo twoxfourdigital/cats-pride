@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Feed xmlns="http://www.bazaarvoice.com/xs/PRR/ProductFeed/5.6" name="catspride" incremental="false" extractDate="2015-04-29T16:08:42+00:00">
+  <Brands>
+    <Brand>
+      <ExternalId>1</ExternalId>
+      <Name>Cats Pride</Name>
+    </Brand>
+  </Brands>
+  <Categories>
+    <Category>
+      <ExternalId>10</ExternalId>
+      <Name>Cat's Pride Scoopable Litters</Name>
+      <CategoryPageUrl>http://catspride.com/our-products/</CategoryPageUrl>
+    </Category>
+    <Category>
+      <ExternalId>11</ExternalId>
+      <Name>Cat's Pride Non-Clumping Litters</Name>
+      <CategoryPageUrl>http://catspride.com/our-products/</CategoryPageUrl>
+    </Category>
+    <Category>
+      <ExternalId>12</ExternalId>
+      <Name>Accessories</Name>
+      <CategoryPageUrl>http://catspride.com/our-products/</CategoryPageUrl>
+    </Category>
+    <Category>
+      <ExternalId>27</ExternalId>
+      <Name>Cat's Pride Alternative Litters.</Name>
+      <CategoryPageUrl>http://catspride.com/our-products/</CategoryPageUrl>
+    </Category>
+    <Category>
+      <ExternalId>40</ExternalId>
+      <Name>Litter Tips</Name>
+      <CategoryPageUrl>http://catspride.com/our-products/</CategoryPageUrl>
+    </Category>
+    <Category>
+      <ExternalId>41</ExternalId>
+      <Name>Feline Facts</Name>
+      <CategoryPageUrl>http://catspride.com/our-products/</CategoryPageUrl>
+    </Category>
+    <Category>
+      <ExternalId>42</ExternalId>
+      <Name>Cat Care</Name>
+      <CategoryPageUrl>http://catspride.com/our-products/</CategoryPageUrl>
+    </Category>
+    <Category>
+      <ExternalId>43</ExternalId>
+      <Name>Expert Advice</Name>
+      <CategoryPageUrl>http://catspride.com/our-products/</CategoryPageUrl>
+    </Category>
+    <Category>
+      <ExternalId>44</ExternalId>
+      <Name>Cat Fun</Name>
+      <CategoryPageUrl>http://catspride.com/our-products/</CategoryPageUrl>
+    </Category>
+    <Category>
+      <ExternalId>45</ExternalId>
+      <Name>Cat Matters</Name>
+      <CategoryPageUrl>http://catspride.com/our-products/</CategoryPageUrl>
+    </Category>
+  </Categories>
+  <Products>
+    <Product>
+      <ExternalId>1159</ExternalId>
+      <Name>Fresh &amp;#038; Light Ultimate Care Premium Unscented Hypoallergenic Multi-Cat Scoop</Name>
+      <Description>It's light done right!™ No fillers. Pure performance.</Description>
+      <ProductPageUrl>http://catspride.com/our-products/fresh-light-ultimate-care-premium-unscented-hypoallergenic-multi-cat-scoop/</ProductPageUrl>
+      <ImageUrl>http://catspride.comhttp://catspride.com/wp-content/uploads/2015/01/CP-Ultimate-Unscented-1.png</ImageUrl>
+      <BrandExternalId>1</BrandExternalId>
+      <CategoryExternalId>10</CategoryExternalId>
+    </Product>
+    <Product>
+      <ExternalId>1155</ExternalId>
+      <Name>Fresh &amp;#038; Light Ultimate Care Premium Scented Multi-Cat Scoop</Name>
+      <Description>It's light done right!&lt;sup&gt;&amp;#8482;&lt;/sup&gt;  No fillers. Pure performance.</Description>
+      <ProductPageUrl>http://catspride.com/our-products/fresh-light-ultimate-care-premium-scented-multi-cat-scoop/</ProductPageUrl>
+      <ImageUrl>http://catspride.comhttp://catspride.com/wp-content/uploads/2015/01/CP-Ultimate-Scented-1.png</ImageUrl>
+      <BrandExternalId>1</BrandExternalId>
+      <CategoryExternalId>10</CategoryExternalId>
+    </Product>
+    <Product>
+      <ExternalId>677</ExternalId>
+      <Name>Jonny Cat Scented Litter Box Liners</Name>
+      <Description>Fresh, clean litter box made easy.</Description>
+      <ProductPageUrl>http://catspride.com/our-products/jonny-cat-scented-litter-box-liners/</ProductPageUrl>
+      <ImageUrl>http://catspride.comhttp://catspride.com/wp-content/uploads/2014/09/OIL-1174_JC_Scntd-Litter-Box-Liners_3D-Carton1.png</ImageUrl>
+      <BrandExternalId>1</BrandExternalId>
+      <CategoryExternalId>12</CategoryExternalId>
+    </Product>
+    <Product>
+      <ExternalId>675</ExternalId>
+      <Name>Jonny Cat Heavy Duty Litter Box Liners</Name>
+      <Description>The #1 selling liners in America. No mess. No fuss.</Description>
+      <ProductPageUrl>http://catspride.com/our-products/jonny-cat-heavy-duty-litter-box-liners/</ProductPageUrl>
+      <ImageUrl>http://catspride.comhttp://catspride.com/wp-content/uploads/2014/09/OIL-1174_JC_Scntd-Litter-Box-Liners2_3D-Carton1.png</ImageUrl>
+      <BrandExternalId>1</BrandExternalId>
+      <CategoryExternalId>12</CategoryExternalId>
+    </Product>
+    <Product>
+      <ExternalId>237</ExternalId>
+      <Name>Cat&amp;#8217;s Pride Litter Box Liners</Name>
+      <Description>Non-sticking and easy to dispose.</Description>
+      <ProductPageUrl>http://catspride.com/our-products/cats-pride-litter-box-liners/</ProductPageUrl>
+      <ImageUrl>http://catspride.comhttp://catspride.com/wp-content/uploads/2014/08/Little-Box-Liners.png</ImageUrl>
+      <BrandExternalId>1</BrandExternalId>
+      <CategoryExternalId>12</CategoryExternalId>
+    </Product>
+    <Product>
+      <ExternalId>235</ExternalId>
+      <Name>Cat&amp;#8217;s Pride Kat Kit</Name>
+      <Description>Low-maintenance care for high-maintenance cats.</Description>
+      <ProductPageUrl>http://catspride.com/our-products/cats-pride-kat-kit/</ProductPageUrl>
+      <ImageUrl>http://catspride.comhttp://catspride.com/wp-content/uploads/2014/08/Kat-Kit.png</ImageUrl>
+      <BrandExternalId>1</BrandExternalId>
+      <CategoryExternalId>12</CategoryExternalId>
+    </Product>
+    <Product>
+      <ExternalId>233</ExternalId>
+      <Name>Cat&amp;#8217;s Pride Natural</Name>
+      <Description>100% natural, no perfumes or dyes.</Description>
+      <ProductPageUrl>http://catspride.com/our-products/non-clumping-natural/</ProductPageUrl>
+      <ImageUrl>http://catspride.comhttp://catspride.com/wp-content/uploads/2014/08/OIL-1174_CPN25Bag-RESIZED1.png</ImageUrl>
+      <BrandExternalId>1</BrandExternalId>
+      <CategoryExternalId>11</CategoryExternalId>
+    </Product>
+    <Product>
+      <ExternalId>231</ExternalId>
+      <Name>Cat&amp;#8217;s Pride Complete Multi-Cat</Name>
+      <Description>Low maintenance litter with triple action odor control.</Description>
+      <ProductPageUrl>http://catspride.com/our-products/non-clumping-complete-multi-cat/</ProductPageUrl>
+      <ImageUrl>http://catspride.comhttp://catspride.com/wp-content/uploads/2014/08/OIL-1174_CP_Complete-20LB-BagBag-1.png</ImageUrl>
+      <BrandExternalId>1</BrandExternalId>
+      <CategoryExternalId>11</CategoryExternalId>
+    </Product>
+    <Product>
+      <ExternalId>228</ExternalId>
+      <Name>Fresh &amp;#038; Light Flushable</Name>
+      <Description>A flushable litter that controls odor and dust.</Description>
+      <ProductPageUrl>http://catspride.com/our-products/fresh-light-flushable/</ProductPageUrl>
+      <ImageUrl>http://catspride.comhttp://catspride.com/wp-content/uploads/2014/08/Fresh-Light-Flushable.png</ImageUrl>
+      <BrandExternalId>1</BrandExternalId>
+      <CategoryExternalId>27</CategoryExternalId>
+    </Product>
+    <Product>
+      <ExternalId>226</ExternalId>
+      <Name>Fresh &amp;#038; Light 100% Recycled Paper</Name>
+      <Description>Powerful odor control that lasts 3 times longer.*</Description>
+      <ProductPageUrl>http://catspride.com/our-products/fresh-light-recycled-paper/</ProductPageUrl>
+      <ImageUrl>http://catspride.comhttp://catspride.com/wp-content/uploads/2014/08/Fresh-Light-Recycled.png</ImageUrl>
+      <BrandExternalId>1</BrandExternalId>
+      <CategoryExternalId>27</CategoryExternalId>
+    </Product>
+    <Product>
+      <ExternalId>222</ExternalId>
+      <Name>Cat&amp;#8217;s Pride Natural Scoop</Name>
+      <Description>The perfect choice for sensitive and sneezy cats. </Description>
+      <ProductPageUrl>http://catspride.com/our-products/scoopable-natural/</ProductPageUrl>
+      <ImageUrl>http://catspride.comhttp://catspride.com/wp-content/uploads/2014/08/CP-Natural.png</ImageUrl>
+      <BrandExternalId>1</BrandExternalId>
+      <CategoryExternalId>10</CategoryExternalId>
+    </Product>
+    <Product>
+      <ExternalId>215</ExternalId>
+      <Name>Fresh &amp;#038; Light All Day Odor Control</Name>
+      <Description>A heavy hitter that provides up to 3X longer odor control.</Description>
+      <ProductPageUrl>http://catspride.com/our-products/fresh-light-all-day-odor-control/</ProductPageUrl>
+      <ImageUrl>http://catspride.comhttp://catspride.com/wp-content/uploads/2014/08/CP-FL-Odor.png</ImageUrl>
+      <BrandExternalId>1</BrandExternalId>
+      <CategoryExternalId>10</CategoryExternalId>
+    </Product>
+    <Product>
+      <ExternalId>210</ExternalId>
+      <Name>Fresh &amp;#038; Light Fragrance-Free</Name>
+      <Description>A softie with your cats; rough and tough on odors. </Description>
+      <ProductPageUrl>http://catspride.com/our-products/fresh-light-fragrance-free/</ProductPageUrl>
+      <ImageUrl>http://catspride.comhttp://catspride.com/wp-content/uploads/2014/08/CP-FL-FF.png</ImageUrl>
+      <BrandExternalId>1</BrandExternalId>
+      <CategoryExternalId>10</CategoryExternalId>
+    </Product>
+    <Product>
+      <ExternalId>75</ExternalId>
+      <Name>Cat&amp;#8217;s Pride Fresh &amp;#038; Clean</Name>
+      <Description>Fresh-scent, low maintenance litter absorbs and traps odors.</Description>
+      <ProductPageUrl>http://catspride.com/our-products/non-clumping-fresh-clean/</ProductPageUrl>
+      <ImageUrl>http://catspride.comhttp://catspride.com/wp-content/uploads/2014/07/Non-Clumping-Fresh-Clean.png</ImageUrl>
+      <BrandExternalId>1</BrandExternalId>
+      <CategoryExternalId>11</CategoryExternalId>
+    </Product>
+    <Product>
+      <ExternalId>73</ExternalId>
+      <Name>Fresh &amp;#038; Light Quick Action</Name>
+      <Description>Fast clumping and odor control to make life with multiple cats sweeter.</Description>
+      <ProductPageUrl>http://catspride.com/our-products/fresh-light-quick-action/</ProductPageUrl>
+      <ImageUrl>http://catspride.comhttp://catspride.com/wp-content/uploads/2014/07/CP-FL-QA.png</ImageUrl>
+      <BrandExternalId>1</BrandExternalId>
+      <CategoryExternalId>10</CategoryExternalId>
+    </Product>
+    <Product>
+      <ExternalId>71</ExternalId>
+      <Name>Cat&amp;#8217;s Pride Complete Multi-Cat Scoop</Name>
+      <Description>Triple Action Strength for multiple cats.</Description>
+      <ProductPageUrl>http://catspride.com/our-products/complete-multi-cat-scoopable/</ProductPageUrl>
+      <ImageUrl>http://catspride.comhttp://catspride.com/wp-content/uploads/2014/07/CP-Complete.png</ImageUrl>
+      <BrandExternalId>1</BrandExternalId>
+      <CategoryExternalId>10</CategoryExternalId>
+    </Product>
+    <Product>
+      <ExternalId>69</ExternalId>
+      <Name>Cat&amp;#8217;s Pride Scoopable</Name>
+      <Description>A flushable clumping litter with great value.</Description>
+      <ProductPageUrl>http://catspride.com/our-products/scoopable-litter/</ProductPageUrl>
+      <ImageUrl>http://catspride.comhttp://catspride.com/wp-content/uploads/2014/07/CP-Scoopable-Flushable.png</ImageUrl>
+      <BrandExternalId>1</BrandExternalId>
+      <CategoryExternalId>10</CategoryExternalId>
+    </Product>
+  </Products>
+</Feed>

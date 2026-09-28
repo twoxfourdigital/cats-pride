@@ -1,0 +1,94 @@
+@import '../../assets/scss/global/variables';
+@import '../../assets/scss/global/mixins';
+
+.buy-guide {
+    padding: 50px 0;
+    background-size: cover;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: 1;
+
+
+    .buy-guide__items {
+        align-items: center;
+
+        .buy-guide__left {
+            text-align: center;
+
+            .buy-guide__image {
+
+                @include max-mq ($md) {
+                    margin-bottom: 20px;
+                }
+
+                img {
+                    @include max-mq ($md) {
+                        width: 50%;
+                    }
+                }
+            }
+        }
+
+
+        .buy-guide__right {
+            text-align: center;
+
+            .title-secondary {
+                width: 50%;
+
+                @include max-mq ($md) {
+                    width: 100%;
+                }
+            }
+
+            .buy-guide__subtitle {
+                color: $tertiary-color;
+                font-size: $font-size-small;
+            }
+
+            .buy-guide__buttons {
+                margin-top: 20px;
+
+                @include max-mq ($mb) {
+                    display: inline-grid;
+                }
+
+                .buy-guide-button {
+                    margin-right: 30px;
+
+                    @include max-mq ($mb) {
+                        margin-right: 0;
+                        margin-bottom: 10px;
+                    }
+                }
+            }
+
+            .buy-guide__icons {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                
+                .buy-guide__icon {
+                    margin: 15px;
+                }
+
+                .buy-guide__icon-wrapper {
+                    display: block;
+
+                    img {
+                        width: 110px;
+                    }
+                }
+
+                span {
+                    color: $tertiary-color;
+                    font-size: $font-size-h4;
+                    margin-right: 20px;
+                }
+            }
+        }
+    }
+
+
+}

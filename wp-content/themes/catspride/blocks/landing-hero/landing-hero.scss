@@ -1,0 +1,50 @@
+@import '../../assets/scss/global/variables';
+@import '../../assets/scss/global/mixins';
+
+.landing-hero-wrapper {
+    padding: 100px 0;
+    background-size: cover;
+   
+    .landing-hero-row {
+        width: 75%;
+        
+    
+        img {
+            display: block;
+        }
+        h1 {
+            color:#FFF;
+            margin-bottom: 10px;
+            span {
+                font-size: 60px;
+            }
+        }
+
+        p{
+            color: #FFF;
+            font-size: 30px;
+            width: 80%;
+        }
+    }
+}
+
+
+@media (max-width: 1024px) {
+    .landing-hero-wrapper{
+        padding-bottom: 50px;
+            .landing-hero-row{
+                width: 100%;
+            
+            p {
+                width: 100%;
+                font-size: 20px;
+            }
+            h1 {
+                font-size: 35px;
+                span {
+                    font-size: 40px;
+                }
+            }
+        }
+    } 
+}

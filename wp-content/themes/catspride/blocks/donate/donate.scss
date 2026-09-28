@@ -1,0 +1,112 @@
+@import '../../assets/scss/global/variables';
+@import '../../assets/scss/global/mixins';
+
+.donate-wrapper {
+  background-color: rgb(242, 242, 242);
+  padding: 35px;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  h2 {
+    font-family: $primary-font;
+    font-size: 25px;
+    color: #000;
+    text-align: center;
+    width: 100%;
+    margin: 15px 0;
+  }
+  p {
+    font-family: $tertiary-font;
+    font-size: 18px;
+    color: #000;
+  }
+
+  .donate-inner-wrapper {
+    .cp-lfg-litter-counter {
+      display: flex;
+      @media (max-width: 765px) {
+        flex-direction: column;
+      }
+      .cp-lfg-litter-donated-bar {
+        flex: 0 0 auto;
+        width: 75%;
+        position: relative;
+        @media (max-width: 1000px) {
+          width: 65%;
+        }
+        @media (max-width: 765px) {
+          width: 100%;
+        }
+
+        .cp-lfg-litter-donated-label-wrapper {
+          display: flex;
+          justify-content: space-between;
+          flex-wrap: nowrap;
+          flex-direction: row;
+
+          .cp-lfg-litter-donated-label {
+            font-size: clamp(16px, 2vw, 20px);
+            color: #000;
+            font-weight: bold;
+            font-family: $primary-font;
+          }
+        }
+        .cp-lfg-litter-donated-bar-wrapper {
+          display: flex;
+          justify-content: space-between;
+          flex-wrap: nowrap;
+          flex-direction: row;
+          align-items: center;
+          margin-top: 20px;
+
+          .cp-litter-counter-total,
+          .cp-lfg-litter-donated-bar-remaining-total {
+            z-index: 2;
+            position: relative;
+            font-size: clamp(19px, 1.5vw, 25px);
+            color: #fff;
+            font-family: $tertiary-font;
+            padding: 0 10px;
+          }
+        }
+        .cp-lfg-litter-donated-bar-filled,
+        .cp-lfg-litter-donated-bar-remaining {
+          position: absolute;
+          background-color: rgb(20, 96, 170);
+          height: 50px;
+          left: 0;
+        }
+        .cp-lfg-litter-donated-bar-remaining {
+          background-color: rgb(40, 40, 40);
+          right: 0;
+          left: auto;
+        }
+      }
+      .cp-lfg-litter-donated-info-wrapper {
+        flex: 0 0 auto;
+        width: 25%;
+        padding: 0 20px;
+        @media (max-width: 765px) {
+          width: 95%;
+          margin-bottom: 30px;
+        }
+
+        .cp-lfg-litter-donated-stat-wrapper {
+          span {
+            display: block;
+          }
+          .cp-lfg-litter-donated-label {
+            color: #000;
+            font-family: Montserrat-Regular;
+            font-size: 20px;
+            font-weight: 700;
+          }
+          .cp-lfg-litter-donated-stat {
+            color: rgb(20, 96, 170);
+            font-size: 36px;
+            margin: 10px 0;
+          }
+        }
+      }
+    }
+  }
+}
