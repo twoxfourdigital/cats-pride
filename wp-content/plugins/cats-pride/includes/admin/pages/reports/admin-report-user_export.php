@@ -1,0 +1,2 @@
+<p class="desc">This report allows you to export all users from the database. The report is managed by a 3rd party plugin and you will be taken to the export interface of that plugin to run the report and download the export.</p>
+<a href="<?php echo admin_url( 'admin.php?page=pmxe-admin-manage&id=2&action=update', 'https' ); ?>" class="button button-primary button-large right">View Report</a>

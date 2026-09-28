@@ -1,0 +1,437 @@
+
+#cp-admin-container .row {
+    margin-left:-30px !important;
+}
+
+#cp-admin-container .postbox h2 {
+    padding: 0 10px 10px;
+    border-bottom: 1px solid #eee;
+}
+
+#cp-admin-container .postbox .inside {
+    overflow:auto;
+}
+
+#cp-admin-container form label {
+    font-weight: bold;
+}
+
+#cp-admin-container form input {
+    width: 100%;
+    margin-bottom:10px;
+}
+
+#cp-admin-container form button {
+    margin-top:10px;
+}
+
+.cp_shelter_duplicate_scores table tbody tr:nth-child(even) {
+    background: #f1f1f1;
+    border-collapse: collapse;
+    border-width: 0;
+    border-spacing: 0;
+}
+.cp_shelter_duplicate_scores table tbody tr td:last-child {
+    text-align: right;
+}
+
+.cp-shelter_duplicates-list li {
+    margin-top: 20px;
+}
+
+.cp-shelter_duplicates-list li:first-of-type {
+    margin-top: 0px;
+}
+
+.cp_shelter_duplicate_scores table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.cp_shelter_duplicate_scores table tbody tr:last-child {
+    background: white;
+    font-weight: bold;
+    border-top: 1px solid #444444;
+}
+
+.x-alert-block {
+    display:block;
+}
+.x-alert-info {
+    background: #0185ba;
+    color: #FFFFFF;
+    border-color: #055473;
+}
+
+.woocommerce-message {
+    padding: 20px;
+    border-width: 1px;
+    border-style: solid;
+    margin-left: -15px;
+    margin-bottom: 20px;
+}
+
+.cp_shelter_duplicate_id {
+    font-size: 10px;
+    text-decoration: none;
+    background-color: #EEEEEE;
+    padding: 2px 5px;
+}
+
+.line-numbers {
+    background:#fff;
+    padding:0px 5px;
+    max-height:150px;
+    overflow: scroll;
+}
+
+.line-numbers p {
+    line-height: 20px;
+    margin: 5px 0;
+    border-bottom:1px dotted #eee;
+}
+
+.line-numbers pre {
+    margin:0;
+    padding:0;
+}
+.line-numbers .line-number {
+    color:#000;
+    background:#ccc;
+    text-align: right;
+    padding:5px;
+    margin-left:-5px;
+    margin-right:10px;
+    margin-top:-5px;
+    width:25px;
+    float:left;
+}
+
+.cp-meta-box-donation-review {
+    margin-top:20px;
+    margin-bottom:20px;
+}
+
+.cp-shelter-donation-input-donation-adjusted-amount,
+.cp-shelter-donation-input-donation-amount {
+    text-align:center;
+}
+
+.donation-stats-wrapper {
+    background: #f9f9f9;
+    min-height: 250px;
+}
+
+.donation-stats-wrapper p {
+    padding:10px 20px;
+}
+
+.donation-stats-wrapper h3 {
+    font-size: 14px;
+    padding: 8px 12px;
+    margin: 0;
+    line-height: 1.4;
+    background: #efefef;
+}
+
+.donation-stats-wrapper.donation-total-nominations {
+    padding-top:65px;
+}
+
+.donation-stats-wrapper.donation-send-notifications table {
+    display:table;
+}
+
+.donation-stats-wrapper.donation-send-notifications table button {
+    width: 100%;
+}
+
+.donation-stats-wrapper.donation-send-notifications td {
+    width:50%;
+    padding:10px;
+}
+
+.donation-stats-wrapper h4 {
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 34px;
+    margin-top: 0;
+}
+
+#cp-donation-stats-total-nominations .display-value span {
+    font-size: 80px;
+    width: 100%;
+    text-align: center;
+    display: inline-block;
+}
+
+.donation-stats-wrapper.donation-send-notifications {
+
+}
+
+.donation-stats-wrapper .cp-donation-status-icon.dashicons-no-alt:before,
+.donation-stats-wrapper .cp-donation-status-icon:before {
+    left:0;
+}
+
+.donation-stats-wrapper table {
+    width: 100%;
+    display: inline-block;
+}
+
+.donation-stats-wrapper table label {
+    font-weight: bold;
+}
+
+.donation-stats-wrapper table .display-name {
+    width: 80%;
+}
+
+.donation-stats-wrapper table .display-value {
+    width: 20%;
+}
+
+.donation-stats-wrapper table .display-value span {
+    border-radius: 20px;
+    background: #e2e2e2;
+    padding: 2px 8px;
+    color: #444444;
+    width: 60px;
+    display: inline-block;
+}
+
+.donation-stats-wrapper table tr td:last-child {
+    text-align:center;
+}
+
+div.dt-button-collection {
+    width: 175px;
+}
+
+table.shelters-search {
+    width: 100%;
+    margin-top: 10px;
+    float: left;
+}
+
+.cp-meta-box-donation-search-form div.input-wrapper {
+    margin-bottom:10px;
+}
+
+.cp-meta-box-donation-search-form label {
+    font-weight:bold;
+}
+
+div.status {
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 20px;
+    background: #7099b3;
+    color: #FFFFFF;
+    font-size: 18px;
+}
+
+div.status.status_pending {
+    background: #7099b3;
+    color: #FFFFFF;
+}
+
+div.status.status_success {
+    background: #70b370;
+}
+
+div.status.status_error {
+    background: #b37070;
+}
+
+.cp-donation-status-icon {
+    background: #E2E2E2;
+    color: #FFFFFF;
+    border-radius: 500px;
+    width: 25px;
+    height: 25px;
+}
+
+.cp-donation-status-icon:before {
+    top: 1px;
+    position:relative;
+}
+.cp-donation-status-icon.dashicons-clock {
+    background: #f9b699;
+}
+.cp-donation-status-icon.dashicons-clock:before {
+    top: 2.7px;
+    left: .8px;
+}
+.cp-donation-status-icon.dashicons-email-alt {
+    background: #99bbf9;
+}
+.cp-donation-status-icon.dashicons-email-alt:before {
+    font-size: 15px;
+    top: 0px;
+}
+.cp-donation-status-icon.dashicons-location-alt {
+    background: #b37470;
+}
+.cp-donation-status-icon.dashicons-location-alt:before {
+    top: -1px;
+    font-size: 16px;
+}
+.cp-donation-status-icon.dashicons-thumbs-up {
+    background: #70b370;
+}
+.cp-donation-status-icon.dashicons-thumbs-up:before {
+    font-size: 15px;
+    top: 0px;
+}
+.cp-donation-status-icon.dashicons-no-alt {
+    background: #E2E2E2;
+}
+.cp-donation-status-icon.dashicons-no-alt:before {
+    top:2px;
+    left:1px;
+}
+
+.donation-stats-wrapper tr td.display-value,
+.donation-stats-wrapper tr td.display-name {
+    padding: 7px 10px;
+}
+
+.donation-stats-wrapper tr td.display-name span.cp-donation-status-icon {
+    margin-right: 5px;
+}
+
+table.dataTable.display tbody>tr.even.selected>.sorting_1, table.dataTable.order-column.stripe tbody>tr.even.selected>.sorting_1 {
+    background-color: #c1d8c5;
+}
+
+table.dataTable.display tbody>tr.odd.selected>.sorting_1, table.dataTable.order-column.stripe tbody>tr.odd.selected>.sorting_1 {
+    background-color: #cbe4cf;
+}
+
+table.dataTable.hover tbody>tr.selected:hover,
+table.dataTable.hover tbody>tr>.selected:hover,
+table.dataTable.display tbody>tr.selected:hover,
+table.dataTable.display tbody>tr>.selected:hover,
+table.dataTable tbody>tr.selected,
+table.dataTable tbody>tr>.selected,
+table.dataTable.stripe tbody>tr.odd.selected,
+table.dataTable.stripe tbody>tr.odd>.selected,
+table.dataTable.display tbody>tr.odd.selected,
+table.dataTable.display tbody>tr.odd>.selected {
+    background-color: #e5f1e7;
+}
+
+/* TipTip CSS - Version 1.2 */
+
+#tiptip_holder {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99999;
+}
+
+#tiptip_holder.tip_top {
+    padding-bottom: 5px;
+}
+
+#tiptip_holder.tip_bottom {
+    padding-top: 5px;
+}
+
+#tiptip_holder.tip_right {
+    padding-left: 5px;
+}
+
+#tiptip_holder.tip_left {
+    padding-right: 5px;
+}
+
+#tiptip_content {
+    font-size: 11px;
+    color: #fff;
+    text-shadow: 0 0 2px #000;
+    padding: 4px 8px;
+    border: 1px solid rgba(255,255,255,0.25);
+    background-color: rgb(25,25,25);
+    background-color: rgba(25,25,25,0.92);
+    background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(transparent), to(#000));
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    box-shadow: 0 0 3px #555;
+    -webkit-box-shadow: 0 0 3px #555;
+    -moz-box-shadow: 0 0 3px #555;
+}
+
+#tiptip_arrow, #tiptip_arrow_inner {
+    position: absolute;
+    border-color: transparent;
+    border-style: solid;
+    border-width: 6px;
+    height: 0;
+    width: 0;
+}
+
+#tiptip_holder.tip_top #tiptip_arrow {
+    border-top-color: #fff;
+    border-top-color: rgba(255,255,255,0.35);
+}
+
+#tiptip_holder.tip_bottom #tiptip_arrow {
+    border-bottom-color: #fff;
+    border-bottom-color: rgba(255,255,255,0.35);
+}
+
+#tiptip_holder.tip_right #tiptip_arrow {
+    border-right-color: #fff;
+    border-right-color: rgba(255,255,255,0.35);
+}
+
+#tiptip_holder.tip_left #tiptip_arrow {
+    border-left-color: #fff;
+    border-left-color: rgba(255,255,255,0.35);
+}
+
+#tiptip_holder.tip_top #tiptip_arrow_inner {
+    margin-top: -7px;
+    margin-left: -6px;
+    border-top-color: rgb(25,25,25);
+    border-top-color: rgba(25,25,25,0.92);
+}
+
+#tiptip_holder.tip_bottom #tiptip_arrow_inner {
+    margin-top: -5px;
+    margin-left: -6px;
+    border-bottom-color: rgb(25,25,25);
+    border-bottom-color: rgba(25,25,25,0.92);
+}
+
+#tiptip_holder.tip_right #tiptip_arrow_inner {
+    margin-top: -6px;
+    margin-left: -5px;
+    border-right-color: rgb(25,25,25);
+    border-right-color: rgba(25,25,25,0.92);
+}
+
+#tiptip_holder.tip_left #tiptip_arrow_inner {
+    margin-top: -6px;
+    margin-left: -7px;
+    border-left-color: rgb(25,25,25);
+    border-left-color: rgba(25,25,25,0.92);
+}
+
+/* Webkit Hacks  */
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    #tiptip_content {
+        padding: 4px 8px 5px 8px;
+        background-color: rgba(45,45,45,0.88);
+    }
+    #tiptip_holder.tip_bottom #tiptip_arrow_inner {
+        border-bottom-color: rgba(45,45,45,0.88);
+    }
+    #tiptip_holder.tip_top #tiptip_arrow_inner {
+        border-top-color: rgba(20,20,20,0.92);
+    }
+}

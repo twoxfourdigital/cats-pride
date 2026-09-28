@@ -1,0 +1,603 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en" style="background:#fff!important">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width">
+  
+  <style>
+    @media only screen {
+      html {
+        min-height: 100%;
+        background: #fff
+      }
+    }
+
+    @media only screen and (max-width:620px) {
+      .small-float-center {
+        margin: 0 auto !important;
+        float: none !important;
+        text-align: center !important
+      }
+    }
+
+    @media only screen and (max-width:620px) {
+      .hide-for-large {
+        display: block !important;
+        width: auto !important;
+        overflow: visible !important;
+        max-height: none !important;
+        font-size: inherit !important;
+        line-height: inherit !important
+      }
+    }
+
+    @media only screen and (max-width:620px) {
+      table.body table.container .hide-for-large {
+        display: table !important;
+        width: 100% !important
+      }
+    }
+
+    @media only screen and (max-width:620px) {
+      table.body table.container .show-for-large {
+        display: none !important;
+        width: 0;
+        mso-hide: all;
+        overflow: hidden
+      }
+    }
+
+    @media only screen and (max-width:620px) {
+      table.body img {
+        width: auto;
+        height: auto
+      }
+
+      table.body center {
+        min-width: 0 !important
+      }
+
+      table.body .container {
+        width: 100% !important
+      }
+
+      table.body .columns {
+        height: auto !important;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        padding-left: 20px !important;
+        padding-right: 20px !important
+      }
+
+      table.body .columns .columns {
+        padding-left: 0 !important;
+        padding-right: 0 !important
+      }
+
+      table.body .collapse .columns {
+        padding-left: 0 !important;
+        padding-right: 0 !important
+      }
+
+      th.small-3 {
+        display: inline-block !important;
+        width: 25% !important
+      }
+
+      th.small-6 {
+        display: inline-block !important;
+        width: 50% !important
+      }
+
+      th.small-9 {
+        display: inline-block !important;
+        width: 75% !important
+      }
+
+      th.small-12 {
+        display: inline-block !important;
+        width: 100% !important
+      }
+
+      .columns th.small-12 {
+        display: block !important;
+        width: 100% !important
+      }
+
+      table.menu {
+        width: 100% !important
+      }
+
+      table.menu td,
+      table.menu th {
+        width: auto !important;
+        display: inline-block !important
+      }
+
+      table.menu.vertical td,
+      table.menu.vertical th {
+        display: block !important
+      }
+
+      table.menu[align=center] {
+        width: auto !important
+      }
+    }
+
+    @media only screen and (max-width:620px) {
+      .paragraph-padding {
+        margin-left: 10px !important;
+        margin-right: 10px !important;
+        Margin-left: 10px !important;
+        Margin-right: 10px !important
+      }
+      .no-padding {
+        padding-left: 50px !important;
+        padding-right: 50px !important;
+      }
+      .full-width-img {
+          width: 100%!important;
+      }
+    }
+
+    @media only screen and (max-width:610px) {
+      table.body .columns {
+        height: auto !important;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        padding-left: 10px !important;
+        padding-right: 10px !important
+      }
+    }
+
+    @media only screen and (max-width:620px) {
+      .header-wrapper .header .columns p {
+        text-align: center !important;
+        margin-bottom: 0 !important;
+        Margin-bottom: 0 !important
+      }
+    }
+
+    a:link {
+        color: #6bbf4b;
+        background-color: transparent;
+        text-decoration: underline;
+    }
+
+    a:visited {
+        color: #6bbf4b;
+        background-color: transparent;
+        text-decoration: none;
+    }
+
+    a:hover {
+        color: #6bbf4b;
+        background-color: transparent;
+        text-decoration: underline;
+    }
+
+    a:active {
+        color: #6bbf4b;
+        background-color: transparent;
+        text-decoration: underline;
+    }
+  </style>
+</head>
+
+<body style="-moz-box-sizing:border-box;-ms-text-size-adjust:100%;-webkit-box-sizing:border-box;-webkit-text-size-adjust:100%;Margin:0;background:#fff!important;box-sizing:border-box;color:#323232;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;line-height:1.6;margin:0;min-width:100%;padding:0;text-align:left;width:100%!important"><span class="preheader" style="color:#fff;display:none!important;font-size:1px;line-height:1px;max-height:0;max-width:0;mso-hide:all!important;opacity:0;overflow:hidden;visibility:hidden"> ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ </span>
+  <table class="body" style="Margin:0;background:#fff!important;border-collapse:collapse;border-spacing:0;color:#323232;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;height:100%;line-height:1.6;margin:0;padding:0;text-align:left;vertical-align:top;width:100%">
+    <tr style="padding:0;text-align:left;vertical-align:top">
+      <td class="center" align="center" valign="top" style="-moz-hyphens:none;-ms-hyphens:none;-webkit-hyphens:none;Margin:0;border-collapse:collapse!important;color:#323232;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;hyphens:none;line-height:1.6;margin:0;padding:0;text-align:left;vertical-align:top;word-break:keep-all;word-wrap:break-word">
+        <center data-parsed style="min-width:600px;width:100%">
+          <table bgcolor="#fff" align="center" class="container header-wrapper float-center" style="margin: 0 auto; background: #fff!important; border-collapse: collapse; border-spacing: 0; float: none; padding: 0; text-align: center; vertical-align: top; width: 600px;">
+            <tbody>
+              <tr style="padding: 0; text-align: left; vertical-align: top;">
+                <td style="-moz-hyphens: none; -ms-hyphens: none; -webkit-hyphens: none; margin: 0; border-collapse: collapse!important; color: #323232; font-family: Helvetica,Arial,sans-serif; font-size: 16px; font-weight: 400; hyphens: none; line-height: 1.6; padding: 0; text-align: left; vertical-align: top; word-break: keep-all; word-wrap: break-word;">
+                 
+                    <table class="spacer" style="border-collapse: collapse; border-spacing: 0; padding: 0; text-align: left; vertical-align: top; width: 100%;">
+                      <tbody>
+                        <tr style="padding: 0; text-align: left; vertical-align: top;">
+                          <td height="10px" style="-moz-hyphens: none; -ms-hyphens: none; -webkit-hyphens: none; margin: 0; border-collapse: collapse!important; color: #323232; font-family: Helvetica,Arial,sans-serif; font-size: 10px; font-weight: 400; hyphens: none; line-height: 10px; mso-line-height-rule: exactly; padding: 0; text-align: left; vertical-align: top; word-break: keep-all; word-wrap: break-word;"> </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                    <table class="row collapse header" style="border-collapse: collapse; border-spacing: 0; display: table; padding: 0; position: relative; text-align: left; vertical-align: top; width: 100%;">
+                      <tbody>
+                        <tr style="padding: 0; text-align: left; vertical-align: top;">
+                          <th class="menu small-12 large-4 columns first" valign="middle" style="margin: 0 auto; color: #323232; font-family: Helvetica,Arial,sans-serif; font-size: 16px; font-weight: 400; line-height: 1.6; padding: 0; padding-bottom: 0; padding-left: 0; padding-right: 0; text-align: left; width: 226.67px;">
+                            <table style="border-collapse: collapse; border-spacing: 0; padding: 0; text-align: left; vertical-align: top; width: 100%;">
+                              <tbody>
+                                <tr style="padding: 0; text-align: left; vertical-align: top;">
+                                  <th style="margin: 0; color: #323232; font-family: Helvetica,Arial,sans-serif; font-size: 16px; font-weight: 400; line-height: 1.6; padding: 0; text-align: left;">
+                                  </th>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </th>
+                          <th class="small-12 large-3 columns" valign="middle" style="margin: 0 auto; color: #323232; font-family: Helvetica,Arial,sans-serif; font-size: 16px; font-weight: 400; line-height: 1.6; padding: 0; padding-bottom: 0; padding-left: 0; padding-right: 0; text-align: left; width: 162.5px;">
+                            <table style="border-collapse: collapse; border-spacing: 0; padding: 0; text-align: left; vertical-align: top; width: 100%;">
+                              <tbody>
+                                <tr style="padding: 0; text-align: left; vertical-align: top;">
+                                  <th style="margin: 0; color: #323232; font-family: Helvetica,Arial,sans-serif; font-size: 16px; font-weight: 400; line-height: 1.6; padding: 0; text-align: left;">
+                                    <center data-parsed="" style="min-width: 102.5px; width: 100%;"><img width="79" height="83" src="https://catspride.img-us3.com/rgriffin%40c-k.com/ck-template-images/cats-pride-logo.png" alt="Cat's Pride logo" align="center" class="float-center" style="-ms-interpolation-mode: bicubic; margin: 0 auto; border: none; clear: both; display: block; float: none; height: 83px; max-width: 100%; outline: 0; text-align: center; text-decoration: none; width: 79px;"></center>
+                                  </th>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </th>
+                          <th class="menu small-12 large-4 columns last" valign="middle" style="margin: 0 auto; color: #323232; font-family: Helvetica,Arial,sans-serif; font-size: 16px; font-weight: 400; line-height: 1.6; padding: 0; padding-bottom: 0; padding-left: 0; padding-right: 0; text-align: left; width: 226.67px;">
+                            <table style="border-collapse: collapse; border-spacing: 0; padding: 0; text-align: left; vertical-align: top; width: 100%;">
+                              <tbody>
+                                <tr style="padding: 0; text-align: left; vertical-align: top;">
+                                  <th style="margin: 0; color: #323232; font-family: Helvetica,Arial,sans-serif; font-size: 16px; font-weight: 400; line-height: 1.6; padding: 0; text-align: left;">
+                                    
+                                  </th>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </th>
+                        </tr>
+                      </tbody>
+                    </table>
+                    <table class="spacer" style="border-collapse: collapse; border-spacing: 0; padding: 0; text-align: left; vertical-align: top; width: 100%;">
+                      <tbody>
+                        <tr style="padding: 0; text-align: left; vertical-align: top;">
+                          <td height="10px" style="-moz-hyphens: none; -ms-hyphens: none; -webkit-hyphens: none; margin: 0; border-collapse: collapse!important; color: #323232; font-family: Helvetica,Arial,sans-serif; font-size: 10px; font-weight: 400; hyphens: none; line-height: 10px; mso-line-height-rule: exactly; padding: 0; text-align: left; vertical-align: top; word-break: keep-all; word-wrap: break-word;"> </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                 
+                 
+                </td>
+              </tr>
+            </tbody>
+          </table><!-- END .header -->
+
+          <table bgcolor="ffffff" align="center" class="container white-bg float-center" style="Margin:0 auto;background:#fff!important;border-collapse:collapse;border-spacing:0;float:none;margin:0 auto;padding:0;text-align:center;vertical-align:top;width:600px">
+            <tbody>
+              <tr style="padding:0;text-align:left;vertical-align:top">
+                <td style="-moz-hyphens:none;-ms-hyphens:none;-webkit-hyphens:none;Margin:0;border-collapse:collapse!important;color:#323232;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;hyphens:none;line-height:1.6;margin:0;padding:0;text-align:left;vertical-align:top;word-break:keep-all;word-wrap:break-word">
+                  <table class="row collapse" style="border-collapse:collapse;border-spacing:0;display:table;padding:0;position:relative;text-align:left;vertical-align:top;width:100%">
+                    <tbody>
+                      <tr style="padding:0;text-align:left;vertical-align:top">
+                        <th class="no-padding-bottom small-12 large-12 columns first last" style="Margin:0 auto;color:#323232;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;line-height:1.6;margin:0 auto;padding:0;padding-bottom:0;padding-left:0;padding-right:0;text-align:left;width:610px">
+                          <table style="border-collapse:collapse;border-spacing:0;padding:0;text-align:left;vertical-align:top;width:100%">
+                            <tr style="padding:0;text-align:left;vertical-align:top">
+                              <th style="Margin:0;color:#323232;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;line-height:1.6;margin:0;padding:0;text-align:left">
+                                <table class="spacer" style="border-collapse:collapse;border-spacing:0;padding:0;text-align:left;vertical-align:top;width:100%">
+                                  <tbody>
+                                    <tr style="padding:0;text-align:left;vertical-align:top">
+                                      <td height="3px" style="-moz-hyphens:none;-ms-hyphens:none;-webkit-hyphens:none;Margin:0;border-collapse:collapse!important;color:#323232;font-family:Helvetica,Arial,sans-serif;font-size:3px;font-weight:400;hyphens:none;line-height:3px;margin:0;mso-line-height-rule:exactly;padding:0;text-align:left;vertical-align:top;word-break:keep-all;word-wrap:break-word">&#xA0;</td>
+                                    </tr>
+                                  </tbody>
+                                </table>
+                                <a href="https://www.youtube.com/watch?v=mKmAVmxGTLM"><img width="600" height="auto" src="help-save-millions-of-shelter-cats.jpg" alt="kittens-101.jpg" title="kittens-101.jpg" style="-ms-interpolation-mode:bicubic;clear:both;display:block;max-width:100%;outline:0;text-decoration:none;width:auto"></a>
+                              </th>
+                              <th class="expander" style="Margin:0;color:#323232;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;line-height:1.6;margin:0;padding:0!important;text-align:left;visibility:hidden;width:0"></th>
+                            </tr>
+                          </table>
+                        </th>
+                      </tr>
+                    </tbody>
+                  </table>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          
+          <table bgcolor="ebebeb" align="center" class="container add-padding white-bg blue-btm-border float-center" style="Margin:0 auto;background:#ebebeb!important;border-bottom:2px solid #272e63;border-collapse:collapse;border-spacing:0;float:none;margin:0 auto;padding:0;text-align:center;vertical-align:top;width:600px">
+            <tbody>
+              <tr style="padding:0;text-align:left;vertical-align:top">
+                <td style="-moz-hyphens:none;-ms-hyphens:none;-webkit-hyphens:none;Margin:0;border-collapse:collapse!important;color:#323232;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;hyphens:none;line-height:1.6;margin:0;padding:0;text-align:left;vertical-align:top;word-break:keep-all;word-wrap:break-word">
+                  <table class="row" style="border-collapse:collapse;border-spacing:0;display:table;padding:0;position:relative;text-align:left;vertical-align:top;width:100%">
+                    <tbody>
+                      <tr style="padding:0;text-align:left;vertical-align:top">
+                        <th class="small-12 large-12 columns first last" style="Margin:0 auto;color:#323232;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;line-height:1.6;margin:0 auto;padding:0;padding-bottom:0;padding-left:20px;padding-right:20px;text-align:left;width:580px">
+                          <table style="border-collapse:collapse;border-spacing:0;padding:0;text-align:left;vertical-align:top;width:100%">
+                            <tr style="padding:0;text-align:left;vertical-align:top">
+                              <th style="Margin:0;color:#323232;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;line-height:1.6;margin:0;padding:0;text-align:left">
+                                <table class="spacer" style="border-collapse:collapse;border-spacing:0;padding:0;text-align:left;vertical-align:top;width:100%">
+                                  <tbody>
+                                    <tr style="padding:0;text-align:left;vertical-align:top">
+                                      <td height="30px" style="-moz-hyphens:none;-ms-hyphens:none;-webkit-hyphens:none;Margin:0;border-collapse:collapse!important;color:#323232;font-family:Helvetica,Arial,sans-serif;font-size:30px;font-weight:400;hyphens:none;line-height:30px;margin:0;mso-line-height-rule:exactly;padding:0;text-align:left;vertical-align:top;word-break:keep-all;word-wrap:break-word">&#xA0;</td>
+                                    </tr>
+                                  </tbody>
+                                </table>
+                                <h3 class="text-center paragraph-padding" style="Margin:0;Margin-bottom:20px;color:#272e63!important;font-family:Helvetica,Arial,sans-serif;font-size:25px;font-weight: 400;line-height:1.2;margin:0;margin-bottom:20px;padding:0;text-align:center;word-wrap:normal;margin-left:40px;margin-right:40px;Margin-left:40px;Margin-right:40px;">The journey to help save millions of shelter cats begins with a single click.</h3>
+                                <p class="text-center paragraph-padding" style="Margin:0;Margin-bottom:16px;Margin-left:80px;Margin-right:80px;color:#323232;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;mso-line-height-rule:exactly;line-height:1.87;letter-spacing:0.5px;margin:0;margin-bottom:16px;margin-left:80px;margin-right:80px;padding:0;text-align:center">See how Cat’s Pride is changing what litter can do.</p>
+                              </th>
+                              <th class="expander" style="Margin:0;color:#323232;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;line-height:1.6;margin:0;padding:0!important;text-align:left;visibility:hidden;width:0"></th>
+                            </tr>
+                          </table>
+                        </th>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <table class="row" style="border-collapse:collapse;border-spacing:0;display:table;padding:0;position:relative;text-align:left;vertical-align:top;width:100%">
+                    <tbody>
+                      <tr style="padding:0;text-align:left;vertical-align:top">
+                        <th class="no-padding-bottom no-padding small-12 large-12 columns first last" style="Margin:0 auto;color:#323232;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;line-height:1.6;margin:0 auto;padding:0;padding-bottom:0;padding-left: 150px;padding-right:150px;text-align:left;width:580px">
+                          <table style="border-collapse:collapse;border-spacing:0;padding:0;text-align:left;vertical-align:top;width:100%">
+                            <tr style="padding:0;text-align:left;vertical-align:top">
+                              <th style="Margin:0;color:#323232;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;line-height:1.6;margin:0;padding:0;text-align:left">
+                                
+                                <a href="https://catspride.com/member-dashboard/choose-shelter/"><img class="full-width-img"width="auto" height="auto" src="see-how-cats-pride-is-changing-what-litter-can-do.jpg" alt="help-kittens.jpg" title="help-kittens.jpg"style="-ms-interpolation-mode:bicubic;clear:both;display:block;max-width:100%;outline:0;text-decoration:none;width: 300px;"></a>
+                              </th>
+                              <th class="expander" style="Margin:0;color:#323232;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;line-height:1.6;margin:0;padding:0!important;text-align:left;visibility:hidden;width:0"></th>
+                            </tr>
+                          </table>
+                        </th>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <table class="row" style="border-collapse:collapse;border-spacing:0;display:table;padding:0;position:relative;text-align:left;vertical-align:top;width:100%">
+                    <tbody>
+                      <tr style="padding:0;text-align:left;vertical-align:top">
+                        <th class="small-12 large-12 columns first last" style="Margin:0 auto;color:#323232;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;line-height:1.6;margin:0 auto;padding:0;padding-bottom:0;padding-left:20px;padding-right:20px;text-align:left;width:580px">
+                          <table style="border-collapse:collapse;border-spacing:0;padding:0;text-align:left;vertical-align:top;width:100%">
+                            <tr style="padding:0;text-align:left;vertical-align:top">
+                              <th style="Margin:0;color:#323232;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;line-height:1.6;margin:0;padding:0;text-align:left">
+                                <table class="spacer" style="border-collapse:collapse;border-spacing:0;padding:0;text-align:left;vertical-align:top;width:100%">
+                                  <tbody>
+                                    <tr style="padding:0;text-align:left;vertical-align:top">
+                                      <td height="30px" style="-moz-hyphens:none;-ms-hyphens:none;-webkit-hyphens:none;Margin:0;border-collapse:collapse!important;color:#323232;font-family:Helvetica,Arial,sans-serif;font-size:30px;font-weight:400;hyphens:none;line-height:30px;margin:0;mso-line-height-rule:exactly;padding:0;text-align:left;vertical-align:top;word-break:keep-all;word-wrap:break-word">&#xA0;</td>
+                                    </tr>
+                                  </tbody>
+                                </table>
+                                
+                                <p class="text-center paragraph-padding" style="Margin:0;Margin-bottom:16px;Margin-left:80px;Margin-right:80px;color:#323232;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;mso-line-height-rule:exactly;line-height:1.87;letter-spacing:0.5px;margin:0;margin-bottom:16px;margin-left:80px;margin-right:80px;padding:0;text-align:center">Thanks to our Litter for Good® program, every jug sold helps find forever homes for cats in need.</p>
+                                <p class="text-center paragraph-padding" style="Margin:0;Margin-bottom:16px;Margin-left:80px;Margin-right:80px;color:#323232;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;mso-line-height-rule:exactly;line-height:1.87;letter-spacing:0.5px;margin:0;margin-bottom:16px;margin-left:80px;margin-right:80px;padding:0;text-align:center">Join the Cat’s Pride Club today and nominate a shelter to receive litter donations.</p>
+                                
+                                <table class="spacer" style="border-collapse:collapse;border-spacing:0;padding:0;text-align:left;vertical-align:top;width:100%">
+                                    <tbody>
+                                      <tr style="padding:0;text-align:left;vertical-align:top">
+                                        <td height="10px" style="-moz-hyphens:none;-ms-hyphens:none;-webkit-hyphens:none;Margin:0;border-collapse:collapse!important;color:#323232;font-family:Helvetica,Arial,sans-serif;font-size:10px;font-weight:400;hyphens:none;line-height:10px;margin:0;mso-line-height-rule:exactly;padding:0;text-align:left;vertical-align:top;word-break:keep-all;word-wrap:break-word">&#xA0;</td>
+                                      </tr>
+                                    </tbody>
+                                </table>
+                                <center data-parsed style="min-width:540px;width:100%">
+                                    <table class="button large green-button float-center" style="Margin:0;border-collapse:collapse;border-spacing:0;float:none;margin:0;padding:0;text-align:center;vertical-align:top;width:auto">
+                                        <tr style="padding:0;text-align:left;vertical-align:top">
+                                        <td style="-moz-hyphens:none;-ms-hyphens:none;-webkit-hyphens:none;Margin:0;border-collapse:collapse!important;color:#323232;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;hyphens:none;line-height:1.6;margin:0;padding:0;text-align:left;vertical-align:top;word-break:keep-all;word-wrap:break-word">
+                                            <table style="border-collapse:collapse;border-spacing:0;padding:0;text-align:left;vertical-align:top;width:100%">
+                                            <tr style="padding:0;text-align:left;vertical-align:top">
+                                                <td style="-moz-hyphens:none;-ms-hyphens:none;-webkit-hyphens:none;Margin:0;background:#6bbf4b;border:0;border-collapse:collapse!important;color:#fff;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;hyphens:none;line-height:1.6;margin:0;padding:0;text-align:left;vertical-align:top;word-break:keep-all;word-wrap:break-word"><a href="https://catspride.com/member-dashboard/choose-shelter/" style="Margin:0;border:0 solid #fff;border-radius:3px;color:#fff;display:inline-block;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;line-height:1.6;margin:0;padding:15px 40px 15px 40px;text-align:left;text-decoration:none">Nominate &#9656;</a></td>
+                                            </tr>
+                                            </table>
+                                        </td>
+                                        </tr>
+                                    </table>
+                                </center>
+                                <table class="spacer" style="border-collapse:collapse;border-spacing:0;padding:0;text-align:left;vertical-align:top;width:100%">
+                                  <tbody>
+                                    <tr style="padding:0;text-align:left;vertical-align:top">
+                                      <td height="40px" style="-moz-hyphens:none;-ms-hyphens:none;-webkit-hyphens:none;Margin:0;border-collapse:collapse!important;color:#323232;font-family:Helvetica,Arial,sans-serif;font-size:40px;font-weight:400;hyphens:none;line-height:40px;margin:0;mso-line-height-rule:exactly;padding:0;text-align:left;vertical-align:top;word-break:keep-all;word-wrap:break-word">&#xA0;</td>
+                                    </tr>
+                                  </tbody>
+                                </table>
+                              </th>
+                              <th class="expander" style="Margin:0;color:#323232;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;line-height:1.6;margin:0;padding:0!important;text-align:left;visibility:hidden;width:0"></th>
+                            </tr>
+                          </table>
+                        </th>
+                      </tr>
+                    </tbody>
+                  </table>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          
+          <!-- <table align="center" class="container add-padding dark-blue-btm-border float-center" style="Margin:0 auto;background:#ebebeb;border-bottom:2px solid #272e63;border-collapse:collapse;border-spacing:0;float:none;margin:0 auto;padding:0;text-align:center;vertical-align:top;width:600px">
+            <tbody>
+              <tr style="padding:0;text-align:left;vertical-align:top">
+                <td style="-moz-hyphens:none;-ms-hyphens:none;-webkit-hyphens:none;Margin:0;border-collapse:collapse!important;color:#323232;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;hyphens:none;line-height:1.6;margin:0;padding:0;text-align:left;vertical-align:top;word-break:keep-all;word-wrap:break-word">
+                  <table class="row" style="border-collapse:collapse;border-spacing:0;display:table;padding:0;position:relative;text-align:left;vertical-align:top;width:100%">
+                    <tbody>
+                      <tr style="padding:0;text-align:left;vertical-align:top">
+                        <th class="no-padding-bottom small-12 large-12 columns first last" style="Margin:0 auto;color:#323232;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;line-height:1.6;margin:0 auto;padding:0;padding-bottom:0;padding-left:20px;padding-right:20px;text-align:left;width:580px">
+                          <table style="border-collapse:collapse;border-spacing:0;padding:0;text-align:left;vertical-align:top;width:100%">
+                            <tr style="padding:0;text-align:left;vertical-align:top">
+                              <th style="Margin:0;color:#323232;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;line-height:1.6;margin:0;padding:0;text-align:left">
+                                <table class="spacer" style="border-collapse:collapse;border-spacing:0;padding:0;text-align:left;vertical-align:top;width:100%">
+                                  <tbody>
+                                    <tr style="padding:0;text-align:left;vertical-align:top">
+                                      <td height="20px" style="-moz-hyphens:none;-ms-hyphens:none;-webkit-hyphens:none;Margin:0;border-collapse:collapse!important;color:#323232;font-family:Helvetica,Arial,sans-serif;font-size:20px;font-weight:400;hyphens:none;line-height:20px;margin:0;mso-line-height-rule:exactly;padding:0;text-align:left;vertical-align:top;word-break:keep-all;word-wrap:break-word">&#xA0;</td>
+                                    </tr>
+                                  </tbody>
+                                </table>
+                                <a href="https://catspride.com/member-dashboard/choose-shelter/"><img width="560" height="auto" src="https://catspride.img-us3.com/rgriffin%40c-k.com/help-kittens.jpg" alt="help-kittens.jpg" title="help-kittens.jpg"style="-ms-interpolation-mode:bicubic;clear:both;display:block;max-width:100%;outline:0;text-decoration:none;width:auto"></a>
+                              </th>
+                              <th class="expander" style="Margin:0;color:#323232;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;line-height:1.6;margin:0;padding:0!important;text-align:left;visibility:hidden;width:0"></th>
+                            </tr>
+                          </table>
+                        </th>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <table class="row" style="border-collapse:collapse;border-spacing:0;display:table;padding:0;position:relative;text-align:left;vertical-align:top;width:100%">
+                    <tbody>
+                      <tr style="padding:0;text-align:left;vertical-align:top">
+                        <th class="small-12 large-12 columns first last" style="Margin:0 auto;color:#323232;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;line-height:1.6;margin:0 auto;padding:0;padding-bottom:0;padding-left:20px;padding-right:20px;text-align:left;width:580px">
+                          <table style="border-collapse:collapse;border-spacing:0;padding:0;text-align:left;vertical-align:top;width:100%">
+                            <tr style="padding:0;text-align:left;vertical-align:top">
+                              <th style="Margin:0;color:#323232;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;line-height:1.6;margin:0;padding:0;text-align:left">
+                                <table class="spacer" style="border-collapse:collapse;border-spacing:0;padding:0;text-align:left;vertical-align:top;width:100%">
+                                  <tbody>
+                                    <tr style="padding:0;text-align:left;vertical-align:top">
+                                      <td height="20px" style="-moz-hyphens:none;-ms-hyphens:none;-webkit-hyphens:none;Margin:0;border-collapse:collapse!important;color:#323232;font-family:Helvetica,Arial,sans-serif;font-size:20px;font-weight:400;hyphens:none;line-height:20px;margin:0;mso-line-height-rule:exactly;padding:0;text-align:left;vertical-align:top;word-break:keep-all;word-wrap:break-word">&#xA0;</td>
+                                    </tr>
+                                  </tbody>
+                                </table>
+                                <h4 class="text-center" style="Margin:0;Margin-bottom:16px;color:inherit;font-family:Helvetica,Arial,sans-serif;font-size:25px;font-weight:400;line-height:1.6;margin:0;margin-bottom:16px;padding:0;text-align:center;word-wrap:normal">Help Kittens Across the Country</h4>
+                                <p class="text-center paragraph-padding" style="Margin:0;Margin-bottom:16px;Margin-left:40px;Margin-right:40px;color:#323232;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;line-height:1.6;margin:0;margin-bottom:16px;margin-left:40px;margin-right:40px;padding:0;text-align:center">Shelters are often overwhelmed during kitten season as they can quickly become inundated with new litters. This means they are in great need of supplies and support. Help your favorite shelter right from your home by nominating them to receive litter donations through our Litter for Good program here:</p>
+                                
+                                <table class="spacer" style="border-collapse:collapse;border-spacing:0;padding:0;text-align:left;vertical-align:top;width:100%">
+                                  <tbody>
+                                    <tr style="padding:0;text-align:left;vertical-align:top">
+                                      <td height="20px" style="-moz-hyphens:none;-ms-hyphens:none;-webkit-hyphens:none;Margin:0;border-collapse:collapse!important;color:#323232;font-family:Helvetica,Arial,sans-serif;font-size:20px;font-weight:400;hyphens:none;line-height:20px;margin:0;mso-line-height-rule:exactly;padding:0;text-align:left;vertical-align:top;word-break:keep-all;word-wrap:break-word">&#xA0;</td>
+                                    </tr>
+                                  </tbody>
+                                </table>
+                                <center data-parsed style="min-width:540px;width:100%">
+                                  <table class="button large green-button float-center" style="Margin:0;border-collapse:collapse;border-spacing:0;float:none;margin:0;padding:0;text-align:center;vertical-align:top;width:auto">
+                                    <tr style="padding:0;text-align:left;vertical-align:top">
+                                      <td style="-moz-hyphens:none;-ms-hyphens:none;-webkit-hyphens:none;Margin:0;border-collapse:collapse!important;color:#323232;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;hyphens:none;line-height:1.6;margin:0;padding:0;text-align:left;vertical-align:top;word-break:keep-all;word-wrap:break-word">
+                                        <table style="border-collapse:collapse;border-spacing:0;padding:0;text-align:left;vertical-align:top;width:100%">
+                                          <tr style="padding:0;text-align:left;vertical-align:top">
+                                            <td style="-moz-hyphens:none;-ms-hyphens:none;-webkit-hyphens:none;Margin:0;background:#6bbf4b;border:0;border-collapse:collapse!important;color:#fff;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;hyphens:none;line-height:1.6;margin:0;padding:0;text-align:left;vertical-align:top;word-break:keep-all;word-wrap:break-word"><a href="https://catspride.com/member-dashboard/choose-shelter/" style="Margin:0;border:0 solid #fff;border-radius:3px;color:#fff;display:inline-block;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;line-height:1.6;margin:0;padding:15px 40px 15px 40px;text-align:left;text-decoration:none">Nominate A Shelter &#9656;</a></td>
+                                          </tr>
+                                        </table>
+                                      </td>
+                                    </tr>
+                                  </table>
+                                </center>
+                                <table class="spacer" style="border-collapse:collapse;border-spacing:0;padding:0;text-align:left;vertical-align:top;width:100%">
+                                  <tbody>
+                                    <tr style="padding:0;text-align:left;vertical-align:top">
+                                      <td height="40px" style="-moz-hyphens:none;-ms-hyphens:none;-webkit-hyphens:none;Margin:0;border-collapse:collapse!important;color:#323232;font-family:Helvetica,Arial,sans-serif;font-size:40px;font-weight:400;hyphens:none;line-height:40px;margin:0;mso-line-height-rule:exactly;padding:0;text-align:left;vertical-align:top;word-break:keep-all;word-wrap:break-word">&#xA0;</td>
+                                    </tr>
+                                  </tbody>
+                                </table>
+                              </th>
+                              <th class="expander" style="Margin:0;color:#323232;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;line-height:1.6;margin:0;padding:0!important;text-align:left;visibility:hidden;width:0"></th>
+                            </tr>
+                          </table>
+                        </th>
+                      </tr>
+                    </tbody>
+                  </table>
+                </td>
+              </tr>
+            </tbody>
+          </table> -->
+          <table bgcolor="ffffff" align="center" class="container white-bg float-center" style="Margin:0 auto;background:#fff!important;border-collapse:collapse;border-spacing:0;float:none;margin:0 auto;padding:0;text-align:center;vertical-align:top;width:600px">
+            <tbody>
+              <tr style="padding:0;text-align:left;vertical-align:top">
+                <td style="-moz-hyphens:none;-ms-hyphens:none;-webkit-hyphens:none;Margin:0;border-collapse:collapse!important;color:#323232;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;hyphens:none;line-height:1.6;margin:0;padding:0;text-align:left;vertical-align:top;word-break:keep-all;word-wrap:break-word">
+                  <table class="row CTA collapsed white-bg" style="background:#fff!important;border-collapse:collapse;border-spacing:0;display:table;padding:0;position:relative;text-align:left;vertical-align:top;width:100%">
+                    <tbody>
+                      <tr style="padding:0;text-align:left;vertical-align:top">
+                        <th class="small-12 large-12 columns first last" style="Margin:0 auto;color:#323232;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;line-height:1.6;margin:0 auto;padding:0;padding-bottom:0;padding-left:20px;padding-right:20px;text-align:left;width:580px">
+                          <table style="border-collapse:collapse;border-spacing:0;padding:0;text-align:left;vertical-align:top;width:100%">
+                            <tr style="padding:0;text-align:left;vertical-align:top">
+                              <th style="Margin:0;color:#323232;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;line-height:1.6;margin:0;padding:0;text-align:left">
+                                <table class="spacer" style="border-collapse:collapse;border-spacing:0;padding:0;text-align:left;vertical-align:top;width:100%">
+                                  <tbody>
+                                    <tr style="padding:0;text-align:left;vertical-align:top">
+                                      <td height="30px" style="-moz-hyphens:none;-ms-hyphens:none;-webkit-hyphens:none;Margin:0;border-collapse:collapse!important;color:#323232;font-family:Helvetica,Arial,sans-serif;font-size:30px;font-weight:400;hyphens:none;line-height:30px;margin:0;mso-line-height-rule:exactly;padding:0;text-align:left;vertical-align:top;word-break:keep-all;word-wrap:break-word">&#xA0;</td>
+                                    </tr>
+                                  </tbody>
+                                </table>
+                                <center data-parsed style="min-width:540px;width:100%"><img class="logo float-center" src="https://catspride.img-us3.com/rgriffin%40c-k.com/ck-template-images/cats-pride-logo.png" alt="Cat's Pride logo" width="79" height="83" align="center" style="-ms-interpolation-mode:bicubic;Margin:0 auto;clear:both;display:block;float:none;height:83px;margin:0 auto;max-width:100%;outline:0;text-align:center;text-decoration:none;width:79px"></center>
+                                <table class="spacer" style="border-collapse:collapse;border-spacing:0;padding:0;text-align:left;vertical-align:top;width:100%">
+                                  <tbody>
+                                    <tr style="padding:0;text-align:left;vertical-align:top">
+                                      <td height="16px" style="-moz-hyphens:none;-ms-hyphens:none;-webkit-hyphens:none;Margin:0;border-collapse:collapse!important;color:#323232;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;hyphens:none;line-height:16px;margin:0;mso-line-height-rule:exactly;padding:0;text-align:left;vertical-align:top;word-break:keep-all;word-wrap:break-word">&#xA0;</td>
+                                    </tr>
+                                  </tbody>
+                                </table>
+                                <p class="text-center dark-blue-text" style="Margin:0;Margin-bottom:16px;color:#272e63!important;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;line-height:1.6;margin:0;margin-bottom:16px;padding:0;text-align:center"><strong>Questions or Comments?<br>Please email <a href="mailto:ken.berry@oildri.com" class="dark-blue-text" style="Margin:0;color:#272e63!important;font-family:Helvetica,Arial,sans-serif;font-weight:400;line-height:1.6;margin:0;padding:0;text-align:left;text-decoration:none"><strong>ken.berry@oildri.com</strong></a> or call 1-800-645-3741</strong></p>
+                                <center data-parsed style="min-width:540px;width:100%">
+                                  <table align="center" class="menu float-center" style="Margin:0 auto;border-collapse:collapse;border-spacing:0;float:none;margin:0 auto;padding:0;text-align:center;vertical-align:top;width:auto!important">
+                                    <tr style="padding:0;text-align:left;vertical-align:top">
+                                      <td style="-moz-hyphens:none;-ms-hyphens:none;-webkit-hyphens:none;Margin:0;border-collapse:collapse!important;color:#323232;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;hyphens:none;line-height:1.6;margin:0;padding:0;text-align:left;vertical-align:top;word-break:keep-all;word-wrap:break-word">
+                                        <table style="border-collapse:collapse;border-spacing:0;padding:0;text-align:left;vertical-align:top;width:100%">
+                                          <tr style="padding:0;text-align:left;vertical-align:top">
+                                            <th class="menu-item float-center" style="Margin:0 auto;color:#323232;float:none;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;line-height:1.6;margin:0 auto;padding:10px;padding-right:10px;text-align:center"><a href="https://catspride.com/" style="Margin:0;color:#323232;font-family:Helvetica,Arial,sans-serif;font-weight:400;line-height:1.6;margin:0;padding:0;text-align:left;text-decoration:none"><img class="website" width="84" height="20" src="https://catspride.img-us3.com/rgriffin%40c-k.com/ck-template-images/cats-pride-website.png" alt="Cat's Pride website" style="-ms-interpolation-mode:bicubic;border:none;clear:both;display:block;height:20px!important;max-width:100%;outline:0;text-decoration:none;width:84px!important"></a></th>
+                                            <th class="menu-item float-center" style="Margin:0 auto;color:#323232;float:none;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;line-height:1.6;margin:0 auto;padding:10px;padding-right:10px;text-align:center"><a href="https://www.facebook.com/catspride/" style="Margin:0;color:#323232;font-family:Helvetica,Arial,sans-serif;font-weight:400;line-height:1.6;margin:0;padding:0;text-align:left;text-decoration:none"><img class="CTA-icon" width="20" height="20" src="https://catspride.img-us3.com/rgriffin%40c-k.com/ck-template-images/facebook.png" alt="Cat's Pride on Facebook" style="-ms-interpolation-mode:bicubic;border:none;clear:both;display:block;height:20px!important;max-width:100%;outline:0;text-decoration:none;width:20px!important"></a></th>
+                                            <th class="menu-item float-center" style="Margin:0 auto;color:#323232;float:none;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;line-height:1.6;margin:0 auto;padding:10px;padding-right:10px;text-align:center"><a href="https://twitter.com/catspride/" style="Margin:0;color:#323232;font-family:Helvetica,Arial,sans-serif;font-weight:400;line-height:1.6;margin:0;padding:0;text-align:left;text-decoration:none"><img class="CTA-icon" width="20" height="20" src="https://catspride.img-us3.com/rgriffin%40c-k.com/ck-template-images/twitter.png" style="-ms-interpolation-mode:bicubic;border:none;clear:both;display:block;height:20px!important;max-width:100%;outline:0;text-decoration:none;width:20px!important"></a></th>
+                                            <th class="menu-item float-center" style="Margin:0 auto;color:#323232;float:none;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;line-height:1.6;margin:0 auto;padding:10px;padding-right:10px;text-align:center"><a href="https://www.instagram.com/catspride/" style="Margin:0;color:#323232;font-family:Helvetica,Arial,sans-serif;font-weight:400;line-height:1.6;margin:0;padding:0;text-align:left;text-decoration:none"><img class="CTA-icon" width="20" height="20" src="https://catspride.img-us3.com/rgriffin%40c-k.com/ck-template-images/ig.png" alt="Cat's Pride on Instagram" style="-ms-interpolation-mode:bicubic;border:none;clear:both;display:block;height:20px!important;max-width:100%;outline:0;text-decoration:none;width:20px!important"></a></th>
+                                            <th class="menu-item float-center" style="Margin:0 auto;color:#323232;float:none;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;line-height:1.6;margin:0 auto;padding:10px;padding-right:10px;text-align:center"><a href="https://www.youtube.com/channel/UC2o6yyzBqJBQ1Sc1ebGmOrA" style="Margin:0;color:#323232;font-family:Helvetica,Arial,sans-serif;font-weight:400;line-height:1.6;margin:0;padding:0;text-align:left;text-decoration:none"><img class="CTA-icon" width="20" height="20" src="https://catspride.img-us3.com/rgriffin%40c-k.com/ck-template-images/yt_icon_mono_light.png" alt="Cat's Pride on Youtube" style="-ms-interpolation-mode:bicubic;border:none;clear:both;display:block;height:20px!important;max-width:100%;outline:0;text-decoration:none;width:20px!important"></a></th>
+                                          </tr>
+                                        </table>
+                                      </td>
+                                    </tr>
+                                  </table>
+                                </center>
+                                <table class="spacer" style="border-collapse:collapse;border-spacing:0;padding:0;text-align:left;vertical-align:top;width:100%">
+                                  <tbody>
+                                    <tr style="padding:0;text-align:left;vertical-align:top">
+                                      <td height="16px" style="-moz-hyphens:none;-ms-hyphens:none;-webkit-hyphens:none;Margin:0;border-collapse:collapse!important;color:#323232;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;hyphens:none;line-height:16px;margin:0;mso-line-height-rule:exactly;padding:0;text-align:left;vertical-align:top;word-break:keep-all;word-wrap:break-word">&#xA0;</td>
+                                    </tr>
+                                  </tbody>
+                                </table>
+                              </th>
+                              <th class="expander" style="Margin:0;color:#323232;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;line-height:1.6;margin:0;padding:0!important;text-align:left;visibility:hidden;width:0"></th>
+                            </tr>
+                          </table>
+                        </th>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <table class="row dark-blue-bg footer" style="background:#272e63;border-collapse:collapse;border-spacing:0;color:#fff!important;display:table;font-size:10px;padding:0;position:relative;text-align:left;vertical-align:top;width:100%">
+                    <tbody>
+                      <tr style="padding:0;text-align:left;vertical-align:top">
+                        <th class="small-12 large-12 columns first last" style="Margin:0 auto;color:#fff;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;line-height:1.6;margin:0 auto;padding:0;padding-bottom:0;padding-left:20px;padding-right:20px;text-align:left;width:580px">
+                          <table style="border-collapse:collapse;border-spacing:0;padding:0;text-align:left;vertical-align:top;width:100%">
+                            <tr style="padding:0;text-align:left;vertical-align:top">
+                              <th style="Margin:0;color:#fff;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;line-height:1.6;margin:0;padding:0;text-align:left">
+                                <table class="spacer" style="border-collapse:collapse;border-spacing:0;padding:0;text-align:left;vertical-align:top;width:100%">
+                                  <tbody>
+                                    <tr style="padding:0;text-align:left;vertical-align:top">
+                                      <td height="16px" style="-moz-hyphens:none;-ms-hyphens:none;-webkit-hyphens:none;Margin:0;border-collapse:collapse!important;color:#fff;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;hyphens:none;line-height:16px;margin:0;mso-line-height-rule:exactly;padding:0;text-align:left;vertical-align:top;word-break:keep-all;word-wrap:break-word">&#xA0;</td>
+                                    </tr>
+                                  </tbody>
+                                </table>
+                                <p style="Margin:0;Margin-bottom:16px;color:#fff!important;font-family:Helvetica,Arial,sans-serif;font-size:10px;font-weight:400;line-height:1.6;margin:0;margin-bottom:16px;padding:0;text-align:left">"Cat’s Pride", "KatKit", "Jonny Cat", "Changing Litter for Good", "Litter for Good" , and "Oil-Dri" are all registered trademarks of Oil-Dri Corporation of America. "Look for the Green Jug", "The Green Jug", "Green Jug", and "LITTER FOR GOOD | 1 JUG = 1LB DONATED" are trademarks of Oil-Dri Corporation of America.</p>
+                                <p style="Margin:0;Margin-bottom:0;color:#fff!important;font-family:Helvetica,Arial,sans-serif;font-size:10px;font-weight:400;line-height:1.6;margin:0;margin-bottom:0;padding:0;text-align:left"><a href="https://catspride.com/privacy-statement/" class="white-text" style="Margin:0;color:#fff;font-family:Helvetica,Arial,sans-serif;font-weight:400;line-height:1.6;margin:0;padding:0;text-align:left;text-decoration:none">Terms & Conditions</a> | <a href="https://catspride.com/legal/" class="white-text" style="Margin:0;color:#fff;font-family:Helvetica,Arial,sans-serif;font-weight:400;line-height:1.6;margin:0;padding:0;text-align:left;text-decoration:none">Privacy Policy</a></p>
+                                <table class="spacer" style="border-collapse:collapse;border-spacing:0;padding:0;text-align:left;vertical-align:top;width:100%">
+                                  <tbody>
+                                    <tr style="padding:0;text-align:left;vertical-align:top">
+                                      <td height="16px" style="-moz-hyphens:none;-ms-hyphens:none;-webkit-hyphens:none;Margin:0;border-collapse:collapse!important;color:#fff;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;hyphens:none;line-height:16px;margin:0;mso-line-height-rule:exactly;padding:0;text-align:left;vertical-align:top;word-break:keep-all;word-wrap:break-word">&#xA0;</td>
+                                    </tr>
+                                  </tbody>
+                                </table>
+                              </th>
+                              <th class="expander" style="Margin:0;color:#323232;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;line-height:1.6;margin:0;padding:0!important;text-align:left;visibility:hidden;width:0"></th>
+                            </tr>
+                          </table>
+                        </th>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <table class="row white-bg footer-2" style="background:#fff!important;border-collapse:collapse;border-spacing:0;color:#323232!important;display:table;font-size:10px;padding:0;position:relative;text-align:left;vertical-align:top;width:100%">
+                    <tbody>
+                      <tr style="padding:0;text-align:left;vertical-align:top">
+                        <th class="small-12 large-12 columns first last" style="Margin:0 auto;color:#323232;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;line-height:1.6;margin:0 auto;padding:0;padding-bottom:0;padding-left:20px;padding-right:20px;text-align:left;width:580px">
+                          <table style="border-collapse:collapse;border-spacing:0;padding:0;text-align:left;vertical-align:top;width:100%">
+                            <tr style="padding:0;text-align:left;vertical-align:top">
+                              <th style="Margin:0;color:#323232;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;line-height:1.6;margin:0;padding:0;text-align:left">
+                                <table class="spacer" style="border-collapse:collapse;border-spacing:0;padding:0;text-align:left;vertical-align:top;width:100%">
+                                  <tbody>
+                                    <tr style="padding:0;text-align:left;vertical-align:top">
+                                      <td height="16px" style="-moz-hyphens:none;-ms-hyphens:none;-webkit-hyphens:none;Margin:0;border-collapse:collapse!important;color:#323232;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;hyphens:none;line-height:16px;margin:0;mso-line-height-rule:exactly;padding:0;text-align:left;vertical-align:top;word-break:keep-all;word-wrap:break-word">&#xA0;</td>
+                                    </tr>
+                                  </tbody>
+                                </table>
+                                <p class="text-center" style="Margin:0;Margin-bottom:16px;color:#323232!important;font-family:Helvetica,Arial,sans-serif;font-size:10px;font-weight:400;line-height:1.6;margin:0;margin-bottom:16px;padding:0;text-align:center">Sent to: %EMAIL%</p>
+                                <p class="text-center" style="Margin:0;Margin-bottom:16px;color:#323232!important;font-family:Helvetica,Arial,sans-serif;font-size:10px;font-weight:400;line-height:1.6;margin:0;margin-bottom:16px;padding:0;text-align:center"><a href="%UNSUBSCRIBELINK%" style="Margin:0;color:#2199e8;font-family:Helvetica,Arial,sans-serif;font-weight:400;line-height:1.6;margin:0;padding:0;text-align:left;text-decoration:none">Unsubscribe Here</a></p>
+                                <p class="text-center" style="Margin:0;Margin-bottom:16px;color:#323232!important;font-family:Helvetica,Arial,sans-serif;font-size:10px;font-weight:400;line-height:1.6;margin:0;margin-bottom:16px;padding:0;text-align:center">%SENDER-INFO-SINGLELINE%</p>
+                              </th>
+                              <th class="expander" style="Margin:0;color:#323232;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;line-height:1.6;margin:0;padding:0!important;text-align:left;visibility:hidden;width:0"></th>
+                            </tr>
+                          </table>
+                        </th>
+                      </tr>
+                    </tbody>
+                  </table>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </center>
+      </td>
+    </tr>
+  </table><!-- prevent Gmail on iOS font size manipulation -->
+  <div style="display:none;white-space:nowrap;font:15px courier;line-height:0">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</div>
+</body>
+
+</html>
